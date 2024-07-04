@@ -1,0 +1,1115 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:51:12
+///////////////////////////////////
+
+[EFX-0021 ERROR] Verific elaboration of module 'one_wire_data_ctrl' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:51:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:39)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:39)
+[EFX-0010 VERI-ERROR] illegal character '6' in binary number 3'b6 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:41)
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:49)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:55)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:55)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:56)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:65)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:70)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:76)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:82)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:89)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:93)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:99)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:114)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:114)
+[EFX-0010 VERI-ERROR] 'f_empty' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'r_fifo_read_enable' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'r_fifo_read_enable' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:66)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:52:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:40)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:40)
+[EFX-0010 VERI-ERROR] illegal character '6' in binary number 3'b6 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:42)
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:50)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:56)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:56)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:66)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:71)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:77)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:83)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:90)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:94)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:100)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:115)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:115)
+[EFX-0010 VERI-ERROR] 'f_empty' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'post_wait_state' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:68)
+[EFX-0010 VERI-ERROR] 'post_wait_state' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:73)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:54:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'state' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:52)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:67)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:72)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ROM_CMD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:78)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:84)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:91)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:95)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:101)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] 'f_empty' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:59)
+[EFX-0010 VERI-ERROR] 'r_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:85)
+[EFX-0010 VERI-ERROR] 'r_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:92)
+[EFX-0010 VERI-ERROR] 'HOLD' is not a task (VERI-1126) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:56:15
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'state' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:52)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:67)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:72)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ROM_CMD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:78)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:84)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:91)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:101)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] 'State' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:95)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:57:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'state' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:52)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:67)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:72)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ROM_CMD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:78)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:84)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:91)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:101)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:57:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:67)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:72)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ROM_CMD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:78)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:84)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:91)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:101)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:58:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'state' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:51)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] 'HOLD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:58)
+[EFX-0010 VERI-ERROR] 'FIFO_WAIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:67)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_START' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:72)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ROM_CMD' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:78)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:84)
+[EFX-0010 VERI-ERROR] 'SLICE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:91)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:101)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:59:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:57)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:59:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:51:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:19)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:51:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'UID_DATA_WIDTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:27)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:27)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:113)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:124)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:52:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:113)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:116)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:124)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:53:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_start_crc' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:54)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:130)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:53:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'start' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v:39)
+[EFX-0010 VERI-ERROR] 'UID_SERIAL_DATA_WIDTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v:41)
+[EFX-0010 VERI-ERROR] module 'one_wire_crc' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v:76)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:56:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'UID_SERIAL_DATA_WIDTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v:41)
+[EFX-0010 VERI-ERROR] module 'one_wire_crc' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v:76)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:58:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v:39)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v:40)
+[EFX-0010 VERI-ERROR] module 'one_wire_shifter' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v:42)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:58:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:55:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:55)
+[EFX-0010 VERI-ERROR] syntax error near 'owm_shifter' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:76)
+[EFX-0010 VERI-ERROR] syntax error near ',' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:87)
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:93)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:55:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:71)
+[EFX-0010 VERI-ERROR] syntax error near 'owm_shifter' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:76)
+[EFX-0010 VERI-ERROR] syntax error near ',' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:87)
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:93)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:57:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'owm_shifter' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:76)
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:92)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:57:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:92)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:58:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:9)
+[EFX-0010 VERI-ERROR] 'FIFO_WIDTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:54)
+[EFX-0010 VERI-ERROR] module 'one_wire' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:92)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:58:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'FIFO_WIDTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:56)
+[EFX-0010 VERI-ERROR] module 'one_wire' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:94)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:59:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:22:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:16)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:16)
+[EFX-0010 VERI-ERROR] port 'crc_zero_WIDTH' is not defined (VERI-1171) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:16)
+[EFX-0010 VERI-ERROR] invalid initialization in declaration (VERI-1754) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:16)
+[EFX-0010 VERI-ERROR] port declaration not allowed in 'one_wire' with formal port declaration list (VERI-1197) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:16)
+[EFX-0010 VERI-ERROR] module 'one_wire' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:23:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:22)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:23)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:24)
+[EFX-0010 VERI-ERROR] illegal character '2' in binary number 4'b0002 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:41)
+[EFX-0010 VERI-ERROR] illegal character '3' in binary number 4'b0003 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:42)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:44)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:44)
+[EFX-0010 VERI-ERROR] syntax error near 'if' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:79)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'if' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:79)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:88)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:24:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:118)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:118)
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:133)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:139)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:148)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:55:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:138)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:147)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:150)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:150)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:17:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:147)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:153)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:168)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:168)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:18:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:178)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:71)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:88)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_F_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:116)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_F_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:120)
+[EFX-0010 VERI-ERROR] 'r_read_cmd' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:121)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:122)
+[EFX-0010 VERI-ERROR] 'write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:123)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:126)
+[EFX-0010 VERI-ERROR] 'READ_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:134)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:139)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:140)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:143)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:149)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:154)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:155)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:166)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:19:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'FIFO_READ_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:71)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:88)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_F_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:116)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_F_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:120)
+[EFX-0010 VERI-ERROR] 'r_read_cmd' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:121)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:122)
+[EFX-0010 VERI-ERROR] 'write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:123)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:126)
+[EFX-0010 VERI-ERROR] 'READ_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:134)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:139)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:140)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:143)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:149)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:154)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:155)
+[EFX-0010 VERI-ERROR] 'SEND_WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:166)
+[EFX-0010 VERI-ERROR] 'r_start_byte' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:174)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:23:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:127)
+[EFX-0010 VERI-ERROR] 'READ_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:136)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:144)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:153)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:155)
+[EFX-0010 VERI-ERROR] 'WRITE_CONDITION' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:158)
+[EFX-0010 VERI-ERROR] 'r_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:159)
+[EFX-0010 VERI-ERROR] 'r_start_byte' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:178)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:184)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:28:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_start_byte' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:183)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:191)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:29:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:45:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:21)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:45:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:52:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:58:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:183)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:211)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:58:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 13:02:01
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:71)
+[EFX-0010 VERI-ERROR] 'r_data_valid' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:88)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:212)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 13:02:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:11:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:28)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:29)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:30)
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:31)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:65)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:65)
+[EFX-0010 VERI-ERROR] illegal character '2' in binary number 4'b0002 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:110)
+[EFX-0010 VERI-ERROR] illegal character '3' in binary number 4'b0003 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:111)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:159)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:169)
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:189)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:189)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:191)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:191)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:12:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:65)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:65)
+[EFX-0010 VERI-ERROR] illegal character '2' in binary number 4'b0002 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:110)
+[EFX-0010 VERI-ERROR] illegal character '3' in binary number 4'b0003 (VERI-1038) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:111)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:159)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:169)
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:189)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:189)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:191)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:191)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:195)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:195)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:199)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:15:22
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:113)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:159)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:169)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:190)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:200)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:208)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:212)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:16:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+[EFX-0010 VERI-ERROR] 'SEND_ROM_COMMAND' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:159)
+[EFX-0010 VERI-ERROR] 'WAIT_ROM_COMMAND' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:169)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:190)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:200)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:208)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:212)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:17:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+[EFX-0010 VERI-ERROR] 'SEND_ROM_COMMAND' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:159)
+[EFX-0010 VERI-ERROR] 'WAIT_ROM_COMMAND' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:169)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:190)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:192)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:193)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:194)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:196)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:200)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:204)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:208)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:212)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:44:16
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:118)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:118)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:241)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:243)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:243)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:244)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:244)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:251)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:253)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:267)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:45:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:118)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:118)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:242)
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:251)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:253)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:267)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:271)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:271)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:307)
+[EFX-0010 VERI-ERROR] 'WRITE_LOW' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:308)
+[EFX-0010 VERI-ERROR] 'WRITE_HIGH' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:309)
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:310)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:47:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:241)
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:244)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:250)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:252)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:254)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:254)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:258)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:262)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:262)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:266)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:270)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:270)
+[EFX-0010 VERI-ERROR] 'IDLE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:306)
+[EFX-0010 VERI-ERROR] 'WRITE_LOW' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:307)
+[EFX-0010 VERI-ERROR] 'WRITE_HIGH' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:308)
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:309)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:320)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:329)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:333)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:50:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:237)
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:243)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:251)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] 'WRITE_LOW' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:300)
+[EFX-0010 VERI-ERROR] 'WRITE_HIGH' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:301)
+[EFX-0010 VERI-ERROR] 'RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:302)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:313)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:322)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:326)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:326)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:51:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'reset_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:243)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:247)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:251)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] 'COUNT_BIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:312)
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:52:41
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+[EFX-0010 VERI-ERROR] syntax error near 'high_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:251)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] 'COUNT_BIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:312)
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:54:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'low_flag' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:259)
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:263)
+[EFX-0010 VERI-ERROR] 'COUNT_BIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:312)
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:54:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'COUNT_BIT' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:312)
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:59:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:57)
+[EFX-0010 VERI-ERROR] 'r_read_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:60)
+[EFX-0010 VERI-ERROR] 'r_ROM_command' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:61)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0010 VERI-ERROR] 'r_Fun_cmd' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:63)
+[EFX-0010 VERI-ERROR] 'r_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:64)
+[EFX-0010 VERI-ERROR] 'count' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0010 VERI-ERROR] 'r_read_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:70)
+[EFX-0010 VERI-ERROR] 'r_ROM_command' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:71)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:72)
+[EFX-0010 VERI-ERROR] 'r_Fun_cmd' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:73)
+[EFX-0010 VERI-ERROR] 'r_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:74)
+[EFX-0010 VERI-ERROR] 'r_read_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:125)
+[EFX-0010 VERI-ERROR] 'r_ROM_command' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:126)
+[EFX-0010 VERI-ERROR] 'r_write_data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:127)
+[EFX-0010 VERI-ERROR] 'r_Fun_cmd' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:128)
+[EFX-0010 VERI-ERROR] 'r_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:129)
+[EFX-0010 VERI-ERROR] 'r_read_write' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:137)
+[EFX-0010 VERI-ERROR] 'r_ROM_command' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:138)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:05:40
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'START' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:154)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:170)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:175)
+[EFX-0010 VERI-ERROR] 'READ_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:208)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:218)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:222)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:227)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:230)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:315)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:331)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:339)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:06:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:171)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:176)
+[EFX-0010 VERI-ERROR] 'READ_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:209)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:219)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:223)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:228)
+[EFX-0010 VERI-ERROR] 'WAIT_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:231)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:316)
+[EFX-0010 VERI-ERROR] 'presence_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:332)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:340)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:08:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] parameter initial value cannot be omitted in this mode of Verilog (VERI-1817) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v:13)
+[EFX-0010 VERI-ERROR] module 'one_wire_shifter' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v:43)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:09:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:10:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:01:12
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:416)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:421)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:421)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:01:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'SEND_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:236)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:243)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:246)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_UID' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:249)
+[EFX-0010 VERI-ERROR] 'SEND_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:252)
+[EFX-0010 VERI-ERROR] 'WAIT_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:255)
+[EFX-0010 VERI-ERROR] 'WAIT_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:258)
+[EFX-0010 VERI-ERROR] 'WAIT_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:262)
+[EFX-0010 VERI-ERROR] 'WAIT_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:264)
+[EFX-0010 VERI-ERROR] 'SEND_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:268)
+[EFX-0010 VERI-ERROR] 'SEND_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:271)
+[EFX-0010 VERI-ERROR] 'SEND_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:276)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:279)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:282)
+[EFX-0010 VERI-ERROR] 'WAIT_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:286)
+[EFX-0010 VERI-ERROR] 'WAIT_FUNC_CMD' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:288)
+[EFX-0010 VERI-ERROR] 'SEND_READ_WRITE_ADDRESS' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:292)
+[EFX-0010 VERI-ERROR] 'WRITE_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:297)
+[EFX-0010 VERI-ERROR] 'READ_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:299)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:11:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'LATCH_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:400)
+[EFX-0010 VERI-ERROR] 'LATCH_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:404)
+[EFX-0010 VERI-ERROR] 'read_UID_Data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:407)
+[EFX-0010 VERI-ERROR] 'read_UID_Data' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:409)
+[EFX-0010 VERI-ERROR] 'count_bit' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:412)
+[EFX-0010 VERI-ERROR] 'count_bit' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:415)
+[EFX-0010 VERI-ERROR] 'LATCH_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:416)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:431)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:14:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:55:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'led_reg' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:35)
+[EFX-0010 VERI-ERROR] 'led_reg' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:38)
+[EFX-0010 VERI-ERROR] 'led_reg' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:60)
+[EFX-0010 VERI-ERROR] module 'bram' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:69)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:56:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'led_reg' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:35)
+[EFX-0010 VERI-ERROR] 'data_out' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:60)
+[EFX-0010 VERI-ERROR] module 'bram' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:69)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:57:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'data_out' is not permitted (VERI-1100) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:60)
+[EFX-0010 VERI-ERROR] module 'bram' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v:69)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:59:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:02:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'd_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:83)
+[EFX-0010 VERI-ERROR] 'd_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:102)
+[EFX-0010 VERI-ERROR] 'd_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:180)
+[EFX-0010 VERI-ERROR] 'd_address' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:224)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:226)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:03:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:29:35
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:330)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:330)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:341)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:341)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:399)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:401)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:401)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:402)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:402)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:403)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:403)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:405)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:405)
+[EFX-0010 VERI-ERROR] syntax error near 'endmodule' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:452)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endmodule' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:452)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:30:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'read_flag' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:321)
+[EFX-0010 VERI-ERROR] 'WAIT_READ' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:322)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:447)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:32:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'WAIT' is an unknown type (VERI-1556) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:145)
+[EFX-0010 VERI-ERROR] 'WAIT_READ' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:325)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:450)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:33:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:126)
+[EFX-0010 VERI-ERROR] 'FIFO_READ_DATA_LENGTH' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:129)
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:130)
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:234)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:235)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:34:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:131)
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:235)
+[EFX-0010 VERI-ERROR] module 'one_wire_data_ctrl' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:236)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:35:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:35:57
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:215)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:215)
+[EFX-0010 VERI-ERROR] 'WRITE_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:368)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:374)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:374)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:376)
+[EFX-0010 VERI-ERROR] 'WAIT_WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:385)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:403)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:403)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:407)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:409)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:409)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:410)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:410)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:411)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:411)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:413)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:413)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:471)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:37:51
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:215)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:215)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:375)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:375)
+[EFX-0010 VERI-ERROR] 'WAIT_WRITE' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:387)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:405)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:405)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:409)
+[EFX-0010 VERI-ERROR] syntax error near '[' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:473)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:475)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:475)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:476)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:476)
+[EFX-0010 VERI-ERROR] syntax error near 'localparam' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:477)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'localparam' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:477)
+[EFX-0010 VERI-ERROR] syntax error near 'always' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:479)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'always' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:479)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:504)
+[EFX-0010 VERI-ERROR] syntax error near ':' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:515)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:40:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'LATCH_DATA' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:505)
+[EFX-0010 VERI-ERROR] 'READ_RESET' is already declared (VERI-1116) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:515)
+[EFX-0010 VERI-ERROR] syntax error near 'endcase' (VERI-1137) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:520)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'endcase' used in incorrect context (VERI-2344) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:520)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:41:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:90)
+[EFX-0010 VERI-ERROR] 'r_data_length' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:100)
+[EFX-0010 VERI-ERROR] 'presence_count' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:201)
+[EFX-0010 VERI-ERROR] 'presence_count' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:209)
+[EFX-0010 VERI-ERROR] 'read_bit' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:277)
+[EFX-0010 VERI-ERROR] 'depth' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:349)
+[EFX-0010 VERI-ERROR] 'depth' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:356)
+[EFX-0010 VERI-ERROR] 'depth' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:359)
+[EFX-0010 VERI-ERROR] 'r_read_enable' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:369)
+[EFX-0010 VERI-ERROR] 'WAIT_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:373)
+[EFX-0010 VERI-ERROR] 'WAIT_DATA' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:377)
+[EFX-0010 VERI-ERROR] 'depth' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:397)
+[EFX-0010 VERI-ERROR] 'depth' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:398)
+[EFX-0010 VERI-ERROR] 'r_data_in' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:492)
+[EFX-0010 VERI-ERROR] 'read_bit' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:508)
+[EFX-0010 VERI-ERROR] 'read_bit' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:510)
+[EFX-0010 VERI-ERROR] 'r_read_enable' is not declared (VERI-1128) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:525)
+[EFX-0010 VERI-ERROR] module 'one_wire_interface' is ignored due to previous errors (VERI-1072) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:527)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:45:51
+///////////////////////////////////
+

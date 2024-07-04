@@ -1,0 +1,930 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:51:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:51:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] use of undefined macro 'state' (VERI-1158) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:93)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:52:27
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] use of undefined macro 'state' (VERI-1158) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:94)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:54:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] use of undefined macro 'state' (VERI-1158) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:95)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:56:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:57:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:57:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:58:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:59:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 29, 2024 18:59:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:88)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:121)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:124)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:51:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:51:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:52:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:53:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:53:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:56:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:58:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 12:58:59
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:92)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:125)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:55:17
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:55:43
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:57:02
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:57:42
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:58:01
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:30)
+[EFX-0011 VERI-WARNING] illegal initial value of output port 'led' for module 'one_wire' ignored (VERI-1382) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:9)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:58:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:32)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:32)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 01, 2024 14:59:13
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:92)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:125)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:128)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:22:29
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:23:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] redeclaration of ANSI port 'reset' is not allowed (VERI-1372) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:29)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:24:24
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 11:55:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:17:59
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:18:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:19:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:23:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:28:39
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:29:32
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:115)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:144)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:159)
+[EFX-0011 VERI-WARNING] expression size 16 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:185)
+[EFX-0256 WARNING] The primary output port 'data_valid' wire 'data_valid' is not driven.
+[EFX-0256 WARNING] The primary output port 'start_enable' wire 'start_enable' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'data_valid'. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:13)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'start_enable'. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:17)
+[EFX-0200 WARNING] Removing redundant signal : r_start_enable. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:30)
+[EFX-0200 WARNING] Removing redundant signal : r_data_valid. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:31)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[5]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[4]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[3]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[2]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[1]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[0]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:36)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:45:01
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:45:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:117)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:146)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:161)
+[EFX-0011 VERI-WARNING] expression size 16 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:187)
+[EFX-0256 WARNING] The primary output port 'data_valid' wire 'data_valid' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'data_valid'. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:13)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[5]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[4]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[3]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[2]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[1]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_read_length[0]. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:33)
+[EFX-0200 WARNING] Removing redundant signal : r_start_enable. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:38)
+[EFX-0200 WARNING] Removing redundant signal : r_data_valid. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:39)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:52:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:120)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:150)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:165)
+[EFX-0256 WARNING] The primary output port 'data_valid' wire 'data_valid' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'data_valid'. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:13)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:58:22
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:183)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 12:58:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+[EFX-0256 WARNING] The primary output port 'data_valid' wire 'data_valid' is not driven.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'data_valid'. (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:13)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 13:02:01
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 13:02:39
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:21)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:26)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:37)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:11:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:104)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:12:22
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:104)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:15:22
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:104)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:16:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:104)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 17:17:17
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:104)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:202)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:44:16
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:253)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:45:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:253)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:47:45
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:252)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:50:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:51:49
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:52:41
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+[EFX-0011 VERI-WARNING] empty statement in sequential block (VERI-1988) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:245)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:54:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:54:58
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 18:59:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:106)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:05:40
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:114)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:06:49
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:114)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:08:54
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:115)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:09:55
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:115)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 03, 2024 19:10:24
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:115)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:01:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:01:49
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:11:11
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:53)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:116)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:14:24
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:55:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:56:44
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:57:26
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 11:59:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:132)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:162)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:177)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:02:03
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:03:03
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:59)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:122)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:141)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:171)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:181)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:189)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:29:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:125)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:30:32
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:125)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:32:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:33:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:34:43
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:126)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 12:35:47
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:62)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:126)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:127)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:181)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:191)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:199)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:35:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:134)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:37:51
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:134)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:40:50
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:134)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:41:24
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:66)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:134)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 04, 2024 16:45:51
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] data object 'w_crc_valid' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] second declaration of 'w_crc_valid' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v:33)
+[EFX-0011 VERI-WARNING] data object 'r_write_data' is already declared (VERI-2170) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:67)
+[EFX-0011 VERI-WARNING] second declaration of 'r_write_data' is ignored (VERI-1329) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:67)
+[EFX-0011 VERI-WARNING] /* is inside a comment (VERI-1049) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v:142)
+[EFX-0011 VERI-WARNING] parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:10)
+[EFX-0011 VERI-WARNING] parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:11)
+[EFX-0011 VERI-WARNING] parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:12)
+[EFX-0011 VERI-WARNING] parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:13)
+[EFX-0011 VERI-WARNING] parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199) (/home/tejas/test_uart_rx.v:14)
+[EFX-0011 VERI-WARNING] expression size 8 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:127)
+[EFX-0011 VERI-WARNING] expression size 4 truncated to fit in target size 3 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:151)
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:181)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:191)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v:199)

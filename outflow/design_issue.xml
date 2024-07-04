@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<efxpt:issue_info xmlns:efxpt="http://www.efinixinc.com/peri_design_db"><efxpt:issue instance_name="input1" instance_type="gpio" severity="error" rule_name="gpio_rule_resource" message="Resource name is empty." /></efxpt:issue_info>

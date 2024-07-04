@@ -1,0 +1,140 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307
+[EFX-0000 INFO] Compiled: Dec 15 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "/home/tejas/Downloads/efinity/2023.2/project/One_wire/One_wire.xml"
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "/home/tejas/Downloads/efinity/2023.2/project/One_wire/One_wire.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "/home/tejas/Downloads/efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v' (VERI-1482)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(33): WARNING: data object 'w_crc_valid' is already declared (VERI-2170)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(31): INFO: previous declaration of 'w_crc_valid' is from here (VERI-1967)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(33): WARNING: second declaration of 'w_crc_valid' is ignored (VERI-1329)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(41): INFO: undeclared symbol 'i_rx_serial', assumed default net type 'wire' (VERI-2561)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(52): INFO: undeclared symbol 'w_fifo_rd_data', assumed default net type 'wire' (VERI-2561)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v(83): INFO: undeclared symbol 'w_start_crc', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v' (VERI-1482)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v(67): WARNING: data object 'r_write_data' is already declared (VERI-2170)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v(64): INFO: previous declaration of 'r_write_data' is from here (VERI-1967)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v(67): WARNING: second declaration of 'r_write_data' is ignored (VERI-1329)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v(142): WARNING: /* is inside a comment (VERI-1049)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/test_uart_rx.v' (VERI-1482)
+/home/tejas/test_uart_rx.v(10): WARNING: parameter 's_IDLE' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+/home/tejas/test_uart_rx.v(11): WARNING: parameter 's_RX_START_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+/home/tejas/test_uart_rx.v(12): WARNING: parameter 's_RX_DATA_BITS' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+/home/tejas/test_uart_rx.v(13): WARNING: parameter 's_RX_STOP_BIT' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+/home/tejas/test_uart_rx.v(14): WARNING: parameter 's_CLEANUP' becomes localparam in 'test_uart_rx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v' (VERI-1482)
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/one_wire_fifo/one_wire_fifo.v' (VERI-1482)
+INFO: Analysis took 0.0184148 seconds.
+INFO: 	Analysis took 0.02 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 192.48 MB, end = 192.876 MB, delta = 0.396 MB
+INFO: Analysis resident set memory usage: begin = 65.084 MB, end = 65.98 MB, delta = 0.896 MB
+INFO: 	Analysis peak resident set memory usage = 379.032 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(1): INFO: compiling module 'one_wire_data_ctrl' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(127): WARNING: expression size 8 truncated to fit in target size 6 (VERI-1209)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(151): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(181): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(191): WARNING: expression size 6 truncated to fit in target size 5 (VERI-1209)
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v(199): WARNING: expression size 32 truncated to fit in target size 6 (VERI-1209)
+INFO: Elaboration took 0.0180745 seconds.
+INFO: 	Elaboration took 0.01 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 192.876 MB, end = 196.308 MB, delta = 3.432 MB
+INFO: Elaboration resident set memory usage: begin = 65.98 MB, end = 70.076 MB, delta = 4.096 MB
+INFO: 	Elaboration peak resident set memory usage = 379.032 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file '/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+/home/tejas/Downloads/efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.00832498 seconds.
+INFO: 	Reading Mapping Library took 0.01 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 196.84 MB, end = 196.84 MB, delta = 0 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 70.588 MB, end = 70.588 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 379.032 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Mapping design "one_wire_data_ctrl"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "one_wire_data_ctrl" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 324 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "one_wire_data_ctrl" end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 2s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 138 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1416 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 3s CPU user time : 6s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 179, ed: 593, lv: 3, pw: 389.67
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 6s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 6s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 96 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 9s CPU sys time : 0s MEM : 379032KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s CPU user time : 9s CPU sys time : 0s MEM : 379032KB)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.00341682 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 207.652 MB, end = 207.652 MB, delta = 0 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 83.58 MB, end = 83.58 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 379.032 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'one_wire_data_ctrl' to Verilog file '/home/tejas/Downloads/efinity/2023.2/project/One_wire/outflow/One_wire.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	179
+[EFX-0000 INFO] EFX_FF          : 	96
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

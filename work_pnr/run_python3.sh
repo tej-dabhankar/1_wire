@@ -1,0 +1,1 @@
+"/home/tejas/Downloads/efinity/2023.2/bin/python3"  "/home/tejas/Downloads/efinity/2023.2/scripts/efx_run_pt.py"  "One_wire"  "Trion"  "T120F324"
