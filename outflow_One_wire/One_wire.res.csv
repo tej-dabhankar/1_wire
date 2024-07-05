@@ -1,0 +1,8 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Jul 05, 2024 18:10:07
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+one_wire_shifter:one_wire_shifter  	     75(75)	       7(7)	     53(53)	     0(0)	     0(0)	

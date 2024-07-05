@@ -55,6 +55,5 @@ one_wire_fifo u_one_wire_fifo(
 .rst_busy ( rst_busy ),
 .rdata ( rdata ),
 .rd_datacount_o ( rd_datacount_o ),
-.a_rd_rst_i ( a_rd_rst_i ),
-.a_wr_rst_i ( a_wr_rst_i )
+.a_rst_i ( a_rst_i )
 );

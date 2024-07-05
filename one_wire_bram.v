@@ -1,4 +1,4 @@
-module bram(
+module one_wire_bram(
     // input from the cttrl pin
     input clk,
     input write,

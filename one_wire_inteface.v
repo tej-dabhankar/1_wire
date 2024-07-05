@@ -1,7 +1,6 @@
 module one_wire_interface (
 
     input                                           clk,
-    input                                           reset,
     
                   /*INPUT FROM THE DATA CTRL */
     input                                           data_valid,
@@ -22,10 +21,11 @@ module one_wire_interface (
     input [7:0]                                     write_data,
     input                                           data_dv,
     output                                          read_enable,
+    output                                          read_address,
     
     input                                           data_in,
     output                                          data_out, 
-    output                                          data_out_enable
+    output                                          data_oe
     );
     
     
@@ -45,16 +45,18 @@ module one_wire_interface (
     reg [15:0] bit_counter;
     reg [31:0] presence_count;
    
-    reg r_data_out;
-    reg r_data_out_enable;
+    reg r_data_out =1'b1;
+    reg r_data_out_enable = 1'b1;
     
-    reg [UID_DATA_WIDTH-1:0] r_UID_Data;
-    reg [UID_DATA_WIDTH-1:0] read_UID_Data;
+    reg [UID_SERIAL_DATA_WIDTH-1:0] r_UID = 0;
+    reg [7:0] r_crc = 0;
+    reg [UID_DATA_WIDTH-1:0] r_UID_Data = 64'h0000000000000000;
+    reg [UID_DATA_WIDTH-1:0] read_UID_Data = 0;
     
     reg [7:0] read_data_reg [0:31];
     
-    reg r_read_match; 
-    reg r_read_write; 
+    reg r_read_match = 0; 
+    reg r_read_write = 0; 
     
     reg [7:0] counter= 0;
     reg [7:0] count_bit = 0;
@@ -65,6 +67,7 @@ module one_wire_interface (
     reg [15:0] r_address = 0;
     reg [7:0] r_write_data = 0;
     reg [5:0] r_data_length = 0;
+    reg [4:0] r_read_address = 0;
     
     
     reg r_read_enable;
@@ -74,7 +77,8 @@ module one_wire_interface (
     
     
             /* Flag Declaration*/
-    
+    reg write_done_flag = 0;
+    reg read_done_flag;
     reg reset_flag =0;
     reg high_flag = 0;
     reg low_flag = 0;
@@ -87,36 +91,36 @@ module one_wire_interface (
             
     always @(posedge clk) begin
         if (write) begin
-            r_UID_Data[UID_SERIAL_DATA_WIDTH:0]  <= UID_Data;
-            r_read_match <=read_match;
-            r_read_write <=read_write;
+            r_UID         <= UID_Data;
+            r_read_match  <=read_match;
+            r_read_write  <=read_write;
             r_ROM_command <=ROM_commad;
-            r_write_data <= write_data;
-            r_Fun_cmd    <= Fun_cmd;
-            r_address    <= address;
+            r_Fun_cmd     <= Fun_cmd;
+            r_address     <= address;
             r_data_length <= data_length;
-            r_data_out    <=1'b1;
         end else begin 
-            r_UID_Data    <= r_UID_Data;
+            r_UID         <= r_UID;
             r_read_match  <=r_read_match;
             r_read_write  <=r_read_write;
             r_ROM_command <=r_ROM_command;
-            r_write_data  <= r_write_data;
             r_Fun_cmd     <= r_Fun_cmd;
             r_address     <= r_address;
             r_data_length <= r_data_length;
-
         end
     end
-    
+
           /*Collecting data from the CRC */
           
     always @(posedge clk) begin
         if (crc_valid) begin
-            r_UID_Data[UID_DATA_WIDTH-1:UID_SERIAL_DATA_WIDTH] <= crc_data;
+            r_crc <= crc_data;
         end else begin
-            r_UID_Data <= r_UID_Data;
+            r_crc <=  r_crc;
         end
+    end
+        
+    always @(posedge clk) begin
+        r_UID_Data <= {r_crc,r_UID};
     end
     
 
@@ -164,256 +168,249 @@ module one_wire_interface (
    
    
     always @(posedge clk) begin
-        if (reset) begin
-            r_UID_Data    <= 0;
-            r_read_match   <=0;
-            r_read_write   <=0;
-            r_ROM_command  <=0;
-            r_write_data  <= 0;
-            r_Fun_cmd     <= 0;
-            r_address     <= 0;
-            counter       <= 0;
-            read_counter  <= 0;
-        end else begin
-            case (state) // FSM begin
-                IDLE : begin                         //00
-                    r_UID_Data    <= 0;
-                    r_read_match  <= 0;
-                    r_read_write  <= 0;
-                    r_ROM_command <= 0;
-                    r_write_data  <= 0;
-                    r_Fun_cmd     <= 0;
-                    r_address     <= 0;
-                    counter       <= 0;
-                    read_counter  <= 0;
-                    
-                    if (write == 1) begin
-                        state <= RESET;
-                    end else  state <= IDLE;
-                    
+    
+        case (state) // FSM begin
+        
+            IDLE : begin                         //00
+                if (write == 1) begin
+                    state <= RESET;
+                end else  state <= IDLE;
+                
+            end
+            
+            RESET : begin                         //01
+                reset_flag <=1;
+                state <=RESET;
+                
+                
+            end
+            
+            WAIT_RESET :  begin                   //02
+                if (write_done_flag) begin
+                    reset_flag <= 1'b0;
+                    state <= DETECT_PRESENCE;
+                end else  state <= WAIT_RESET;
+            end
+            
+            DETECT_PRESENCE : begin              //03
+                if (!r_data_out) begin
+                    presence_count <= presence_count +1;
+                    state <= DETECT_PRESENCE;
+                end else begin
+                    state <= WAIT_DETECT_PRESENCE;
                 end
-                
-                RESET : begin                         //01
-                    reset_flag <=1;
-                    state <= WAIT_RESET;
+            end
+            
+            WAIT_DETECT_PRESENCE : begin           //04
+                if (presence_count>4000) begin
+                        state <= SEND_ROM_COMMAND;
+                end else begin
+                    state <=IDLE;
+                end 
+            end                        
+            
+            SEND_ROM_COMMAND : begin                //05
+                if (r_ROM_command[counter]) begin
+                    high_flag<=1'b1;
+                    state <= WAIT_ROM_COMMAND;
+                end else begin
+                    low_flag<=1'b1;
+                    state <= WAIT_ROM_COMMAND;
                 end
-                
-                WAIT_RESET :  begin                   //02
-                    if (!reset_flag) begin
-                        state <= DETECT_PRESENCE;
-                    end else  state <= WAIT_RESET;
-                end
-                
-                DETECT_PRESENCE : begin              //03
-                    if (!r_data_out) begin
-                        presence_count <= presence_count +1;
-                        state <= DETECT_PRESENCE;
-                    end else begin
-                        state <= WAIT_DETECT_PRESENCE;
-                    end
-                end
-                
-                WAIT_DETECT_PRESENCE : begin           //04
-                    if (presence_count>4000) begin
-                            state <= SEND_ROM_COMMAND;
-                    end else begin
-                        state <=IDLE;
-                    end 
-                end                        
-                
-                SEND_ROM_COMMAND : begin                //05
-                    if (r_ROM_command[counter]) begin
-                        high_flag<=1'b1;
+            end    
+            
+            WAIT_ROM_COMMAND : begin                  //06
+                if (high_flag || low_flag == 1) begin
+                    state <= WAIT_ROM_COMMAND;                        
+                end else begin
+                    if (counter <7) begin
+                        counter <=counter+1;
                         state <= WAIT_ROM_COMMAND;
                     end else begin
-                        low_flag<=1'b1;
-                        state <= WAIT_ROM_COMMAND;
-                    end
-                end    
-                
-                WAIT_ROM_COMMAND : begin                  //06
-                    if (high_flag || low_flag == 1) begin
-                        state <= WAIT_ROM_COMMAND;                        
-                    end else begin
-                        if (counter <7) begin
-                            counter <=counter+1;
-                            state <= WAIT_ROM_COMMAND;
-                        end else begin
-                            counter <= 0;
-                            
-                            if (read_match) begin
-                                state <= MATCH_UID;
-                            end else begin 
-                                state <= READ_UID;
-                            end
-                        end
-                    end
-                end   
-                
-                MATCH_UID : begin                        //07
-                    if (r_UID_Data[counter]) begin
-                        high_flag<=1'b1;
-                        state <= WAIT_MATCH_UID;
-                    end else begin
-                        low_flag<=1'b1;
-                        state <= WAIT_MATCH_UID;
-                    end
-                end
-                
-                WAIT_MATCH_UID : begin                    //08
-                    if (high_flag || low_flag == 1) begin
-                        state <= WAIT_MATCH_UID;                        
-                    end else begin
-                        if (counter <63) begin
-                            counter <=counter + 1;
+                        counter <= 0;
+                        
+                        if (read_match) begin
                             state <= MATCH_UID;
-                        end else begin
-                            counter <= 0;
-                            state <= SEND_FUNC_CMD;
-                        end
-                    end
-                end   
-                 
-                READ_UID : begin                         //09
-                    high_flag     <=1'b1;
-                    read_flag     <=1'b1;
-                    state <= WAIT_READ_UID;
-                end
-                
-                WAIT_READ_UID : begin                   //10
-                    if (high_flag || low_flag == 0) begin
-                        read_UID_Data[counter] <= read_bit;
-                    
-                        if (counter ==63) begin
-                            state <= RESET;
-                        end else begin
-                            counter <= counter +1;
-                            state <= WAIT_READ_UID;
+                        end else begin 
+                            state <= READ_UID;
                         end
                     end
                 end
-                
-                SEND_FUNC_CMD : begin                   //11
-                    if (r_Fun_cmd[counter]) begin
-                        high_flag <=1'b1;
-                        state<= WAIT_FUNC_CMD;
+            end   
+            
+            MATCH_UID : begin                        //07
+                if (r_UID_Data[counter]) begin
+                    high_flag<=1'b1;
+                    state <= WAIT_MATCH_UID;
+                end else begin
+                    low_flag<=1'b1;
+                    state <= WAIT_MATCH_UID;
+                end
+            end
+            
+            WAIT_MATCH_UID : begin                    //08
+                if (!write_done_flag) begin
+                    state <= WAIT_MATCH_UID;                        
+                end else begin
+                    if (counter <63) begin
+                        high_flag <=1'b0;
+                        low_flag <= 1'b0;
+                        counter <=counter + 1;
+                        state <= MATCH_UID;
                     end else begin
-                        low_flag <=1'b1;
-                        state <= WAIT_FUNC_CMD;
+                        counter <= 0;
+                        high_flag <=1'b0;
+                        low_flag <= 1'b0;
+                        state <= SEND_FUNC_CMD;
                     end
                 end
+            end   
+             
+            READ_UID : begin                         //09
+                high_flag     <=1'b1;
+                read_flag     <=1'b1;
+                state <= WAIT_READ_UID;
+            end
+            
+            WAIT_READ_UID : begin                   //10
+                if (high_flag || low_flag == 0) begin
+                    read_UID_Data[counter] <= read_bit;
                 
-                WAIT_FUNC_CMD : begin                  //12
-                    if (high_flag || low_flag == 1) begin
-                        state <= WAIT_FUNC_CMD;                        
+                    if (counter ==63) begin
+                        state <= RESET;
                     end else begin
-                        if (counter <7) begin
-                            counter <=counter + 1;
-                            state <= SEND_FUNC_CMD;
-                        end else begin
-                            counter <= 0;
-                            state <= SEND_READ_WRITE_ADDRESS;
-                        end
-                    end
-                end  
-                
-                SEND_READ_WRITE_ADDRESS : begin           //13
-                    if (r_address[counter]) begin
-                        high_flag <=1'b1;
-                        state<= WAIT_READ_WRITE_ADDRESS;
-                    end else begin
-                        low_flag <=1'b1;
-                        state <= WAIT_READ_WRITE_ADDRESS;
+                        counter <= counter +1;
+                        state <= WAIT_READ_UID;
                     end
                 end
-                
-                WAIT_READ_WRITE_ADDRESS : begin             //14
-                    if (high_flag || low_flag == 1) begin
-                        state <= WAIT_FUNC_CMD;                        
+            end
+            
+            SEND_FUNC_CMD : begin                   //11
+                if (r_Fun_cmd[counter]) begin
+                    high_flag <=1'b1;
+                    state<= WAIT_FUNC_CMD;
+                end else begin
+                    low_flag <=1'b1;
+                    state <= WAIT_FUNC_CMD;
+                end
+            end
+            
+            WAIT_FUNC_CMD : begin                  //12
+                if (high_flag || low_flag == 1) begin
+                    state <= WAIT_FUNC_CMD;                        
+                end else begin
+                    if (counter <7) begin
+                        counter <=counter + 1;
+                        state <= SEND_FUNC_CMD;
                     end else begin
-                        if (counter < 15) begin
-                            counter <=counter + 1;
-                            state <= SEND_READ_WRITE_ADDRESS;
-                        end else begin
-                            counter <= 0;
-                            
-                            if (r_read_write) begin
-                                state <= WRITE_DATA;
-                            end else begin
-                                state <= READ_DATA;
-                            end
-                        end
-                    end
-                end  
-
-                READ_DATA : begin                          //15
-                    high_flag     <=1'b1;
-                    read_flag     <=1'b1;
-                    state <= WAIT_READ;
-                end
-                
-                WAIT_READ : begin                          //16
-                    if (high_flag || low_flag == 0) begin
-                        read_data_reg[counter][depth] <= read_bit;
-                    
-                        if (counter <7) begin
-                            counter <= counter +1;
-                            state <=READ_DATA;
-                            
-                        end else begin
-                            depth <= depth +1;
-                            counter <=0;
-                            
-                            if (depth < r_data_length) begin
-                                state <= READ_DATA;
-                            end else begin  
-                                state <= IDLE; 
-                            end
-                        end
+                        counter <= 0;
+                        state <= SEND_READ_WRITE_ADDRESS;
                     end
                 end
-                
-                WRITE_DATA : begin
-                    r_read_enable <=1;
-                    
-                    if (data_dv) begin
-                        r_write_data <=write_data;
-                        state <= WAIT_DATA;
-                    end
+            end  
+            
+            SEND_READ_WRITE_ADDRESS : begin           //13
+                if (r_address[counter]) begin
+                    high_flag <=1'b1;
+                    state<= WAIT_READ_WRITE_ADDRESS;
+                end else begin
+                    low_flag <=1'b1;
+                    state <= WAIT_READ_WRITE_ADDRESS;
                 end
-                
-                WAIT_DATA : begin
-                    if(r_write_data[counter]) begin
-                        high_flag <= 1'b1;
-                        state <=WAIT_WRITE;
+            end
+            
+            WAIT_READ_WRITE_ADDRESS : begin             //14
+                if (high_flag || low_flag == 1) begin
+                    state <= WAIT_FUNC_CMD;                        
+                end else begin
+                    if (counter < 15) begin
+                        counter <=counter + 1;
+                        state <= SEND_READ_WRITE_ADDRESS;
                     end else begin
-                        low_flag <=1'b1;
-                        state <= WAIT_WRITE;
-                    end
-                end
-                
-                WAIT_WRITE : begin                    //08
-                    if (high_flag || low_flag == 1) begin
-                        state <= WAIT_MATCH_UID;                        
-                    end else begin
-                        if (counter <7) begin
-                            counter <=counter + 1;
+                        counter <= 0;
+                        
+                        if (r_read_write) begin
                             state <= WRITE_DATA;
                         end else begin
-                            counter <= 0;
-                            
-                            if (depth < r_data_length) begin
-                                depth <= depth +1;
-                                state <= WRITE_DATA;
-                            end else begin        
-                            state <= IDLE;
-                            end
+                            state <= READ_DATA;
                         end
                     end
-                end                                  
-            endcase
-        end
+                end
+            end  
+
+            READ_DATA : begin                          //15
+                high_flag     <=1'b1;
+                read_flag     <=1'b1;
+                state <= WAIT_READ;
+            end
+            
+            WAIT_READ : begin                          //16
+                if (high_flag || low_flag == 0) begin
+                    read_data_reg[counter][depth] <= read_bit;
+                
+                    if (counter <7) begin
+                        counter <= counter +1;
+                        state <=READ_DATA;
+                        
+                    end else begin
+                        depth <= depth +1;
+                        counter <=0;
+                        
+                        if (depth < r_data_length) begin
+                            state <= READ_DATA;
+                        end else begin  
+                            state <= IDLE; 
+                        end
+                    end
+                end
+            end
+            
+            WRITE_DATA : begin
+                r_read_enable <=1;
+                r_read_address <= counter;
+                
+                if (data_dv) begin
+                    r_write_data <=write_data;
+                    state <= WAIT_DATA;
+                end
+            end
+            
+            WAIT_DATA : begin
+                if(r_write_data[counter]) begin
+                    high_flag <= 1'b1;
+                    state <=WAIT_WRITE;
+                end else begin
+                    low_flag <=1'b1;
+                    state <= WAIT_WRITE;
+                end
+            end
+            
+            WAIT_WRITE : begin                    //08
+                if (write_done_flag && read_done_flag) begin
+                    state <= WAIT_WRITE;                        
+                end else begin
+                    if (counter <7) begin
+                        counter <=counter + 1;
+                        state <= WRITE_DATA;
+                    end else begin
+                        counter <= 0;
+                        
+                        if (depth < r_data_length) begin
+                            depth <= depth +1;
+                            state <= WRITE_DATA;
+                        end else begin        
+                        state <= IDLE;
+                        end
+                    end
+                high_flag <= 1'b0;
+                low_flag  <=  1'b0;
+                read_flag  <=1'b0;
+                
+                end
+            end                                  
+        endcase
     end
+
     
     reg [1:0] write_state ;
     localparam [1:0] WRITE_IDLE       = 2'b00;
@@ -447,6 +444,8 @@ module one_wire_interface (
                 end else begin
                     write_state <= WRITE_IDLE;
                 end
+                
+                write_done_flag <= 1'b0;
             end
             
             WRITE_LOW : begin
@@ -472,13 +471,17 @@ module one_wire_interface (
            end
            
            WRITE_RESET : begin
-                reset_flag <=0;
-                high_flag <= 0;
-                low_flag <=0;
+                write_done_flag <=1'b1;
+ //               reset_flag <=0;
+ //               high_flag <= 0;
+ //               low_flag <=0;
+                
                 write_state <=WRITE_IDLE;
            end
         endcase 
     end
+    
+    
     reg [1:0] read_state ;
     localparam [1:0] READ_IDLE  = 2'b00;
     localparam [1:0] COUNT_BIT  = 2'b01;
@@ -517,12 +520,12 @@ module one_wire_interface (
                 end else begin 
                         read_bit <=1'b1;
                 end   
-                state <= READ_RESET;
+                read_state <= READ_RESET;
 
              end
              
             READ_RESET : begin
-                read_flag     <= 0;
+                read_done_flag     <= 1'b1;
                 read_counter  <= 0;
                 read_state <= READ_IDLE;
             end
@@ -531,6 +534,8 @@ module one_wire_interface (
     
     assign data_out = r_data_out;
     assign read_enable = r_read_enable;
+    assign read_address = r_read_address;
+    assign data_oe =1'b1;
     
     endmodule
    

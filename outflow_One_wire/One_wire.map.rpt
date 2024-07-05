@@ -1,0 +1,89 @@
+Efinity Synthesis report for project One_wire
+Version: 2023.2.307
+Generated at: Jul 05, 2024 18:10:07
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : one_wire_shifter
+
+### ### File List (begin) ### ### ###
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_crc.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_inteface.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_shifter.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_data_ctrl.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/one_wire_bram.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/uart_rx.v
+/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/one_wire_fifo/one_wire_fifo.v
+### ### File List (end) ### ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 2
+Total number of FFs with enable signals: 75
+CE signal <start_crc>, number of controlling flip flops: 18
+CE signal <data_valid>, number of controlling flip flops: 57
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 0
+Total number of FFs with set/reset signals: 0
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                      FFs        ADDs        LUTs      RAMs DSP/MULTs
+-----------------------------------         ---        ----        ----      ---- ---------
+one_wire_shifter:one_wire_shifter        75(75)        7(7)      53(53)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+   clk             75              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : One_wire
+project-xml : /home/tejas/Downloads/efinity/2023.2/project/One_wire/One_wire.xml
+root : one_wire_shifter
+I,include : /home/tejas/Downloads/efinity/2023.2/project/One_wire
+I,include : /home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/one_wire_fifo
+I,include : ip/one_wire_fifo
+output-dir : /home/tejas/Downloads/efinity/2023.2/project/One_wire/outflow
+work-dir : /home/tejas/Downloads/efinity/2023.2/project/One_wire/work_syn
+write-efx-verilog : /home/tejas/Downloads/efinity/2023.2/project/One_wire/outflow/One_wire.map.v
+binary-db : /home/tejas/Downloads/efinity/2023.2/project/One_wire/outflow/One_wire.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	58
+OUTPUT PORTS    : 	2
+
+EFX_ADD         : 	7
+EFX_LUT4        : 	53
+   1-2  Inputs  : 	7
+   3    Inputs  : 	12
+   4    Inputs  : 	34
+EFX_FF          : 	75
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 7s
+Elapsed synthesis time : 7s

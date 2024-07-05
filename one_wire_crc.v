@@ -60,14 +60,14 @@ case (state)
         //r_shift[10]  <= (crc_poly[10]) ? (r_shift[14] ^ r_shift[9])  : r_shift[9];
         //r_shift[9]   <= (crc_poly[9])  ? (r_shift[14] ^ r_shift[8])  : r_shift[8];
         //r_shift[8]   <= (crc_poly[8])  ? (r_shift[14] ^ r_shift[7])  : r_shift[7];
-            r_shift[7]   <= (crc_poly[7])  ? (r_shift[14] ^ r_shift[6])  : r_shift[6];
-            r_shift[6]   <= (crc_poly[6])  ? (r_shift[14] ^ r_shift[5])  : r_shift[5];
-            r_shift[5]   <= (crc_poly[5])  ? (r_shift[14] ^ r_shift[4])  : r_shift[4];
-            r_shift[4]   <= (crc_poly[4])  ? (r_shift[14] ^ r_shift[3])  : r_shift[3];
-            r_shift[3]   <= (crc_poly[3])  ? (r_shift[14] ^ r_shift[2])  : r_shift[2];
-            r_shift[2]   <= (crc_poly[2])  ? (r_shift[14] ^ r_shift[1])  : r_shift[1];
-            r_shift[1]   <= (crc_poly[1])  ? (r_shift[14] ^ r_shift[0])  : r_shift[0];
-            r_shift[0]   <= (crc_poly[0])  ? (r_shift[14] ^ data_stream) : data_stream;
+            r_shift[7]   <= (crc_poly[7])  ? (r_shift[7] ^ r_shift[6])  : r_shift[6];
+            r_shift[6]   <= (crc_poly[6])  ? (r_shift[7] ^ r_shift[5])  : r_shift[5];
+            r_shift[5]   <= (crc_poly[5])  ? (r_shift[7] ^ r_shift[4])  : r_shift[4];
+            r_shift[4]   <= (crc_poly[4])  ? (r_shift[7] ^ r_shift[3])  : r_shift[3];
+            r_shift[3]   <= (crc_poly[3])  ? (r_shift[7] ^ r_shift[2])  : r_shift[2];
+            r_shift[2]   <= (crc_poly[2])  ? (r_shift[7] ^ r_shift[1])  : r_shift[1];
+            r_shift[1]   <= (crc_poly[1])  ? (r_shift[7] ^ r_shift[0])  : r_shift[0];
+            r_shift[0]   <= (crc_poly[0])  ? (r_shift[7] ^ data_stream) : data_stream;
         
 
             counter <= counter - 1;

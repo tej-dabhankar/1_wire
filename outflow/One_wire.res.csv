@@ -1,8 +1,7 @@
 sep=\t
 Module Resource Usage Distribution Estimates
-Generated at: Jul 04, 2024 16:45:51
+Generated at: Jul 05, 2024 18:20:57
 
 Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
 
 Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
-one_wire_data_ctrl:one_wire_data_ctrl  	     96(96)	       0(0)	   179(179)	     0(0)	     0(0)	

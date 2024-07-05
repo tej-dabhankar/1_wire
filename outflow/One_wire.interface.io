@@ -6,5 +6,11 @@
 # Copyright (C) 2013 - 2023  All rights reserved.
 
 
-# pin name	x	y	z
-# --------	----	----	---
+# pin name 	x	y	z
+# -------- 	----	----	---
+ow_out     	0	274	0
+ow_in      	0	274	1
+ow_oe      	0	275	0
+led        	323	643	0
+i_rx_serial	338	7	1
+clk        	338	9	1

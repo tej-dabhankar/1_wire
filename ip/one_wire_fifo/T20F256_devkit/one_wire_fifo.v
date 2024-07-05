@@ -43,7 +43,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-`define IP_UUID _bfb4d6bea25e4612ae0d9c7f654ae2c1
+`define IP_UUID _226de5dddbe24e5b9c0b6b358a11b1ea
 `define IP_NAME_CONCAT(a,b) a``b
 `define IP_MODULE_NAME(name) `IP_NAME_CONCAT(name,`IP_UUID)
 module one_wire_fifo (
@@ -60,12 +60,11 @@ input rd_clk_i,
 input wr_en_i,
 input rd_en_i,
 input [7:0] wdata,
-output [4:0] wr_datacount_o,
+output [5:0] wr_datacount_o,
 output rst_busy,
 output [7:0] rdata,
-output [4:0] rd_datacount_o,
-input a_rd_rst_i,
-input a_wr_rst_i
+output [5:0] rd_datacount_o,
+input a_rst_i
 );
 `IP_MODULE_NAME(efx_fifo_top) #(
 .SYNC_CLK (0),
@@ -73,18 +72,18 @@ input a_wr_rst_i
 .DATA_WIDTH (8),
 .MODE ("STANDARD"),
 .OUTPUT_REG (0),
-.PROG_FULL_ASSERT (9),
+.PROG_FULL_ASSERT (61),
 .PROGRAMMABLE_FULL ("NONE"),
-.PROG_FULL_NEGATE (9),
+.PROG_FULL_NEGATE (61),
 .PROGRAMMABLE_EMPTY ("NONE"),
 .PROG_EMPTY_ASSERT (0),
 .PROG_EMPTY_NEGATE (2),
 .OPTIONAL_FLAGS (1),
 .PIPELINE_REG (1),
-.DEPTH (32),
+.DEPTH (64),
 .FAMILY ("TRION"),
 .ASYM_WIDTH_RATIO (4),
-.BYPASS_RESET_SYNC (1),
+.BYPASS_RESET_SYNC (0),
 .ENDIANESS (0)
 ) u_efx_fifo_top(
 .almost_full_o ( almost_full_o ),
@@ -104,8 +103,7 @@ input a_wr_rst_i
 .rst_busy ( rst_busy ),
 .rdata ( rdata ),
 .rd_datacount_o ( rd_datacount_o ),
-.a_rd_rst_i ( a_rd_rst_i ),
-.a_wr_rst_i ( a_wr_rst_i )
+.a_rst_i ( a_rst_i )
 );
 
 endmodule

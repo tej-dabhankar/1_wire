@@ -52,12 +52,11 @@ rd_clk_i : in std_logic;
 wr_en_i : in std_logic;
 rd_en_i : in std_logic;
 wdata : in std_logic_vector(7 downto 0);
-wr_datacount_o : out std_logic_vector(4 downto 0);
+wr_datacount_o : out std_logic_vector(5 downto 0);
 rst_busy : out std_logic;
 rdata : out std_logic_vector(7 downto 0);
-rd_datacount_o : out std_logic_vector(4 downto 0);
-a_rd_rst_i : in std_logic;
-a_wr_rst_i : in std_logic);
+rd_datacount_o : out std_logic_vector(5 downto 0);
+a_rst_i : in std_logic);
 END COMPONENT;
 ---------------------- End COMPONENT Declaration ------------
 
@@ -81,6 +80,5 @@ wr_datacount_o => wr_datacount_o,
 rst_busy => rst_busy,
 rdata => rdata,
 rd_datacount_o => rd_datacount_o,
-a_rd_rst_i => a_rd_rst_i,
-a_wr_rst_i => a_wr_rst_i);
+a_rst_i => a_rst_i);
 ------------------------ End INSTANTIATION Template ---------

@@ -1,7 +1,7 @@
 module one_wire_data_ctrl(
 
     input clk,
-    input reset,
+
 
 /* fifo signal*/
     input fifo_empty,
@@ -71,24 +71,6 @@ module one_wire_data_ctrl(
     localparam WRITE_CONDITION   = 4'd12;
      
     always @(posedge clk) begin
-        if (reset) begin
-            r_read_write  <= 1'b0;
-            r_UID_signal  <= 56'h0000000;
-            byte_count    <= 3'b000;
-            r_read_match  <=1'b0;
-            length        <= 0;
-            r_data_valid  <= 0;
-            r_ROM_Command <= 0;
-            r_data        <= 0;
-            address_count <= 0;
-            r_read_cmd    <= 0;
-            r_read_address<= 0;
-            r_write_data  <= 0;
-            d_address     <= 0;
-    
-        end else begin
-        ////* FSM*////
-        
             case (state) 
                 IDLE : begin 
                     r_read_write  <= 1'b0;
@@ -218,7 +200,6 @@ module one_wire_data_ctrl(
                end
             endcase
         end
-    end
     
     
     /*ASSIGNING OUTPUT SIGNALS */

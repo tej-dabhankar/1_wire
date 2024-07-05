@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="One_wire" description="" last_change="1720091967" sw_version="2023.2.307" last_run_state="fail" last_run_flow="place" config_result_in_sync="true" design_ood="change" place_ood="" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="One_wire" description="" last_change="1720183861" sw_version="2023.2.307" last_run_state="fail" last_run_flow="syn" config_result_in_sync="true" design_ood="" place_ood="change" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T120F324"/>
         <efx:timing_model name="C4"/>
     </efx:device_info>
     <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008">
-        <efx:top_module name="one_wire_data_ctrl"/>
+        <efx:top_module name="one_wire_interface"/>
         <efx:design_file name="one_wire.v" version="default" library="default"/>
         <efx:design_file name="one_wire_crc.v" version="default" library="default"/>
         <efx:design_file name="one_wire_inteface.v" version="default" library="default"/>
         <efx:design_file name="one_wire_data_shifter.v" version="default" library="default"/>
         <efx:design_file name="one_wire_data_ctrl.v" version="default" library="default"/>
-        <efx:design_file name="../../../../../test_uart_rx.v" version="default" library="default"/>
         <efx:design_file name="one_wire_bram.v" version="default" library="default"/>
+        <efx:design_file name="uart_rx.v" version="default" library="default"/>
         <efx:top_vhdl_arch name=""/>
     </efx:design_info>
     <efx:constraint_info>
