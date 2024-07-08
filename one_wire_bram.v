@@ -3,7 +3,7 @@ module one_wire_bram(
     input clk,
     input write,
     input [4:0] write_address,
-    input [7:0] data_in,
+    input [ FIFO_DATA_WIDTH-1:0] data_in,
     input reset,
   
     // input from the interface for data
@@ -13,15 +13,18 @@ module one_wire_bram(
     output data_dv
 
 );
-   
+
+    parameter FIFO_WIDTH = 8;
+    
     reg data_transfer_flag = 1'b0;
-    reg [7:0] write_data_reg [0:31];
-    reg [7:0] r_data_out;
+    reg [FIFO_DATA_WIDTH-1:0] write_data_reg [0:31];
+    reg [FIFO_DATA_WIDTH-1:0] r_data_out;
     reg r_data_dv;
     integer i;
 
     
-    // State machine parameters
+    // State machine 
+    
     reg [1:0] state = 2'b00;    // State register initialized to IDLE state
 
     // Define states using localparam
@@ -65,5 +68,6 @@ always @(posedge clk) begin
 end
 
 assign data_out = r_data_out;
-assign data_dv =r_data_dv;
+assign data_dv = r_data_dv;
+
 endmodule

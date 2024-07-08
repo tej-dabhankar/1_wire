@@ -9,12 +9,12 @@ module one_wire (
     output led
     );
     
-    assign led =1;
+    assign led =1'b1;
     
     /*parameter declaration*/
     parameter UID_SERIAL_DATA_WIDTH = 56;
     parameter UID_DATA_WIDTH = 64;
-    parameter CLKS_PER_BIT=435;
+    parameter CLKS_PER_BIT = 435;
     parameter FIFO_WIDTH = 8;
     
     /*wire declaration*/
@@ -65,7 +65,7 @@ module one_wire (
             .o_Rx_Byte      (w_rx_byte)
         );
 
-        one_wire_fifo owm_fifo(
+        owm_fifo owm_fifo(
             .wr_clk_i       (clk),
             .rd_clk_i       (clk),
             .wr_en_i        (w_rx_dv),
@@ -74,6 +74,7 @@ module one_wire (
             .rdata          (w_fifo_rd_data),
             .empty_o        (w_fifo_empty)
         );
+        
         one_wire_data_ctrl owm_dt_ctrl(
         
             .clk(clk),
@@ -124,7 +125,8 @@ module one_wire (
             .crc_valid(w_crc_valid)
         );
         
-        one_wire_bram  owbram(
+        one_wire_bram #( 
+            FIFO_WIDTH = FIFO_WIDTH )owbram(
             .clk(clk),
             .write(w_write),
             .write_address(w_data_address),
@@ -136,13 +138,11 @@ module one_wire (
         );
         
         
-     one_wire_interface  owm_interface(
+     one_wire_interface  owm_interface (
 
     .clk(clk),
-    .reset(reset),
     
                   /*INPUT FROM THE DATA CTRL */
-    .data_valid(w_data_valid),
     .UID_Data(w_UID_Data),
     .ROM_commad(w_ROM_command),
     .read_match(w_read_match),
@@ -165,8 +165,8 @@ module one_wire (
     .data_in(ow_in),
     .data_out(ow_out), 
     .data_oe(ow_oe)
+ //  
     );
- 
    
     endmodule
             

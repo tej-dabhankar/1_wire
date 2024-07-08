@@ -1,0 +1,1882 @@
+2024-07-08 11:39:41,825 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:41,834 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:41,867 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:41,868 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:41,868 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:42,069 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:42,070 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,071 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,104 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,104 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,104 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:42,306 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:42,307 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,307 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,340 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,341 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,341 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:42,543 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:42,544 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,544 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,578 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,578 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,578 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:42,780 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:42,781 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,781 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:42,815 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,815 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:42,815 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:43,017 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:43,018 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,018 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,051 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,052 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,052 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:43,253 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:43,254 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,255 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,287 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,288 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,288 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:43,490 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:43,490 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,491 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,523 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,524 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,524 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:43,725 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:43,726 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,726 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,759 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,760 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,760 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:43,962 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:43,962 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,963 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:43,995 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,996 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:43,996 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:44,197 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:44,198 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,199 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,231 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,232 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,232 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:44,433 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:44,434 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,435 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,467 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,468 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,468 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:44,669 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:44,670 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,670 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,703 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,704 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,704 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:44,906 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:44,906 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,907 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:44,940 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,941 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:44,941 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:45,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:45,143 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,144 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,176 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,177 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,177 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:45,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:45,379 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,380 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,412 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,413 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,413 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:45,615 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:45,616 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,616 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,649 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,650 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,650 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:45,851 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:45,852 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,853 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:45,886 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,887 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:45,887 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:46,088 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:46,089 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,090 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,123 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,124 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,124 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:46,326 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:46,327 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,327 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,360 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,361 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,361 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:46,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:46,563 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,564 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,597 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,598 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,598 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:46,800 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:46,801 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,801 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:46,834 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,835 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:46,835 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:47,036 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:47,037 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,038 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,072 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,072 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,072 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:47,273 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:47,274 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,275 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,308 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,309 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,309 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:47,510 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:47,511 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,511 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,545 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,546 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,546 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:47,747 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:47,748 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,748 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,782 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,782 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:47,783 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:47,984 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:47,985 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:47,985 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,019 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,020 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,020 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:48,222 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:48,223 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,223 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,256 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,257 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,257 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:48,459 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:48,460 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,460 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,493 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,493 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,494 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:48,695 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:48,696 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,696 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,729 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,730 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,730 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:48,931 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:48,932 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:48,966 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,967 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:48,967 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:49,168 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:49,169 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,169 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,202 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,202 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,203 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:49,404 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:49,405 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,405 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,438 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,438 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,439 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:49,640 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:49,641 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,641 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,674 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,674 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,675 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:49,876 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:49,877 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,877 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:49,911 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,912 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:49,912 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:50,113 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:50,114 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,115 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,148 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,148 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,149 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:50,350 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:50,351 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,351 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,385 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,386 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,386 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:50,587 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:50,588 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,589 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,622 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,623 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,623 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:50,824 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:50,825 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,826 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:50,859 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,859 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:50,860 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:51,061 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:51,062 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,063 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,096 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,096 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,097 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:51,298 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:51,299 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,299 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,333 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,333 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,334 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:51,535 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:51,536 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,536 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,570 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,570 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,570 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:51,772 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:51,773 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:51,806 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,806 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:51,806 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:52,008 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:52,009 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,009 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,042 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,042 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,043 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:52,244 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:52,245 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,245 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,278 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,278 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,279 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:52,480 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:52,481 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,481 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,515 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,516 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,516 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:52,717 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:52,718 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,718 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,752 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,752 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,753 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:52,954 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:52,955 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,955 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:52,989 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,989 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:52,990 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:53,191 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:53,192 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,192 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,226 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,226 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,226 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:53,428 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:53,429 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,429 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,462 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,462 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,462 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:53,664 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:53,665 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,665 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,699 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,699 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,699 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:53,901 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:53,902 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,902 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:53,936 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,936 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:53,936 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:54,138 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:54,139 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,139 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,173 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,173 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,173 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:54,375 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:54,376 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,376 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,410 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,410 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,410 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:54,612 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:54,613 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,613 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,647 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,647 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,647 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:54,849 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:54,850 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,850 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:54,884 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,884 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:54,884 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:55,086 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:55,087 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,087 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,121 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,121 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,121 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:55,323 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:55,324 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,324 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,358 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,358 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,359 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:55,561 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:55,562 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,595 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,595 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,596 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:55,797 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:55,798 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,798 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:55,832 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,832 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:55,832 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:56,034 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:56,035 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,035 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,069 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,069 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,069 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:56,270 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:56,272 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,272 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,306 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,306 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,306 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:56,508 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:56,509 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,509 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,543 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,543 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,543 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:56,745 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:56,746 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,746 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,780 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,780 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:56,780 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:56,982 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:56,983 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:56,983 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,017 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,017 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,018 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:57,219 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:57,220 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,220 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,253 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,254 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,254 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:57,456 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:57,457 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,457 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,489 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,490 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,490 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:57,692 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:57,693 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,693 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,725 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,726 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,726 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:57,928 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:57,929 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,929 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:57,963 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,963 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:57,963 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:58,165 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:58,166 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,166 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,199 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,200 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,200 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:58,401 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:58,402 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,403 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,436 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,436 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,436 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:58,638 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:58,639 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,639 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,672 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,673 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,673 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:58,874 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:58,875 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,876 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:58,909 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,910 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:58,910 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:59,111 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:59,112 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,113 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,147 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,147 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,147 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:59,349 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:59,349 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,350 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,384 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,384 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,384 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:59,586 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:59,587 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,587 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,620 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,621 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,621 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:39:59,823 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:39:59,824 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,824 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:39:59,857 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,858 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:39:59,858 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:00,060 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:00,061 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,061 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,095 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,095 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,095 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:00,296 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:00,298 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,298 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,331 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,332 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,332 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:00,533 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:00,534 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,535 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,568 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,569 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,569 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:00,770 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:00,771 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,772 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:00,805 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,806 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:00,806 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:01,007 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:01,008 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,009 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,042 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,043 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,043 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:01,245 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:01,246 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,246 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,280 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,281 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,281 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:01,482 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:01,483 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,484 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,517 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,518 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,518 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:01,719 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:01,720 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,720 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,754 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,755 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,755 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:01,956 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:01,957 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,957 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:01,991 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,992 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:01,992 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:02,193 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:02,194 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,195 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,228 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,229 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,229 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:02,430 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:02,431 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,432 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,465 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,466 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,466 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:02,667 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:02,669 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,669 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,702 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,703 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,703 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:02,904 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:02,905 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,906 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:02,939 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,940 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:02,940 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:03,141 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:03,142 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,143 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,176 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,177 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,177 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:03,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:03,379 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,379 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,412 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,413 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,413 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:03,614 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:03,615 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,616 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,649 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,650 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,650 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:03,851 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:03,852 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,852 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:03,886 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,886 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:03,887 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:04,088 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:04,089 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,089 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,123 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,123 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,124 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:04,325 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:04,326 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,326 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,360 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,360 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,361 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:04,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:04,563 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,563 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,597 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,598 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,598 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:04,799 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:04,800 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,801 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:04,834 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,834 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:04,835 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:05,036 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:05,037 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,038 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,071 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,071 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,072 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:05,273 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:05,274 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,274 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,308 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,308 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,308 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:05,510 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:05,511 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,511 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,545 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,545 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,546 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:05,747 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:05,748 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,748 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,782 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,782 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:05,783 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:05,984 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:05,985 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:05,986 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,019 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,020 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,020 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:06,221 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:06,222 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,222 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,256 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,256 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,257 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:06,458 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:06,459 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,459 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,493 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,493 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,494 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:06,695 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:06,696 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,696 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,730 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,730 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,731 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:06,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:06,933 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,933 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:06,967 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,967 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:06,968 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:07,169 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:07,170 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,170 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,204 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,204 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,204 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:07,406 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:07,407 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,407 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,441 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,441 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,441 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:07,643 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:07,644 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,644 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,678 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,678 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,678 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:07,880 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:07,881 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,881 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:07,915 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,915 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:07,916 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:08,117 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:08,118 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,119 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,152 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,152 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,153 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:08,354 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:08,355 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,355 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,389 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,389 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,389 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:08,591 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:08,592 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,592 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,626 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,626 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,626 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:08,828 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:08,829 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,829 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:08,862 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,862 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:08,862 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:09,064 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:09,065 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,065 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,099 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,099 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,099 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:09,301 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:09,302 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,302 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,335 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,335 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,335 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:09,537 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:09,538 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,538 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,571 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,571 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,571 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:09,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:09,774 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,774 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:09,807 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,807 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:09,807 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:10,008 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:10,009 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,010 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,043 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,043 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,043 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:10,245 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:10,246 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,246 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,280 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,280 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,280 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:10,482 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:10,483 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,483 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,517 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,517 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,518 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:10,719 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:10,720 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,720 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,754 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,754 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,754 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:10,956 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:10,957 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,957 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:10,991 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,991 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:10,991 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:11,193 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:11,194 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,194 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,228 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,228 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,228 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:11,430 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:11,431 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,431 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,465 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,465 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,465 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:11,667 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:11,668 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,668 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,702 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,702 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,702 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:11,904 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:11,905 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,905 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:11,939 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,939 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:11,939 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:12,141 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:12,142 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,176 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,176 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,176 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:12,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:12,379 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,379 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,412 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,413 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,413 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:12,615 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:12,616 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,616 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,649 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,650 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,650 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:12,852 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:12,852 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,853 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:12,887 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,887 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:12,887 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:13,089 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:13,090 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,090 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,124 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,124 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,124 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:13,326 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:13,327 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,327 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,360 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,361 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,361 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:13,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:13,563 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,564 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,597 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,598 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,598 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:13,799 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:13,800 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,801 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:13,835 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,835 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:13,835 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:14,037 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:14,038 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,038 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,072 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,072 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,072 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:14,274 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:14,275 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,275 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,308 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,309 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,309 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:14,511 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:14,512 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,512 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,546 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,546 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,546 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:14,748 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:14,749 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,749 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,782 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,783 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:14,783 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:14,984 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:14,985 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:14,986 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,019 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,020 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,020 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:15,221 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:15,222 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,223 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,256 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,257 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,257 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:15,458 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:15,459 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,460 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,493 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,494 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,494 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:15,695 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:15,697 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,697 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,730 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,731 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,731 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:15,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:15,933 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,934 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:15,968 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,968 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:15,968 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:16,170 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:16,171 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,172 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,205 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,206 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,206 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:16,408 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:16,408 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,409 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,442 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,443 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,443 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:16,644 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:16,645 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,646 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,678 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,679 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,679 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:16,880 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:16,881 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,882 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:16,915 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,916 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:16,916 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:17,117 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:17,119 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,119 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,152 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,153 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,153 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:17,354 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:17,355 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,356 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,389 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,390 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,390 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:17,591 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:17,592 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,593 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,626 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,626 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,627 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:17,828 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:17,829 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,829 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:17,863 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,864 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:17,864 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:18,065 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:18,066 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,067 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,100 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,101 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,101 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:18,302 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:18,304 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,304 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,337 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,337 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,338 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:18,539 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:18,540 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,540 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,573 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,574 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,574 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:18,775 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:18,776 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,777 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:18,810 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,810 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:18,811 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:19,012 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:19,013 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,013 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,046 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,047 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,047 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:19,248 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:19,249 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,249 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,282 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,283 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,283 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:19,484 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:19,485 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,485 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,519 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,520 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,520 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:19,721 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:19,722 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,722 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,755 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,755 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,756 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:19,957 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:19,958 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,958 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:19,991 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,991 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:19,992 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:20,193 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:20,194 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,194 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,227 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,228 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,228 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:20,429 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:20,430 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,431 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,464 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,464 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,465 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:20,666 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:20,667 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,667 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,701 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,701 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,702 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:20,903 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:20,904 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,905 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:20,938 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,939 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:20,939 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:21,140 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:21,142 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,175 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,176 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,176 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:21,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:21,379 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,379 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,412 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,412 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,413 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:21,614 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:21,615 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,615 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,649 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,649 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,650 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:21,851 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:21,852 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,852 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:21,886 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,886 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:21,886 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:22,088 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:22,089 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,090 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,123 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,124 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,124 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:22,325 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:22,326 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,326 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,360 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,360 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,360 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:22,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:22,563 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,564 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,597 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,597 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,597 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:22,799 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:22,800 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,800 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:22,834 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,834 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:22,835 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:23,036 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:23,037 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,037 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,071 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,071 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,072 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:23,273 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:23,274 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,274 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,307 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,307 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,308 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:23,509 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:23,510 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,510 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,544 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,544 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,544 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:23,746 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:23,747 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,747 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,781 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,781 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:23,782 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:23,983 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:23,984 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:23,984 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,018 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,018 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,018 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:24,220 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:24,221 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,221 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,255 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,255 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,255 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:24,457 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:24,458 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,458 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,492 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,492 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,492 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:24,694 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:24,695 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,696 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,729 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,729 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,729 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:24,931 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:24,932 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:24,966 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,966 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:24,967 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:25,168 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:25,169 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,169 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,203 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,203 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,203 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:25,405 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:25,406 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,406 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,440 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,440 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,440 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:25,642 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:25,643 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,643 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,677 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,677 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,678 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:25,879 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:25,880 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,880 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:25,914 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,914 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:25,914 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:26,116 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:26,117 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,117 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,151 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,151 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,151 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:26,353 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:26,354 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,354 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,388 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,388 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,388 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:26,590 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:26,591 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,591 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,625 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,625 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,625 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:26,827 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:26,828 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,828 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:26,862 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,862 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:26,862 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:27,064 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:27,065 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,065 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,098 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,099 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,099 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:27,301 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:27,302 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,302 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,335 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,336 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,336 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:27,538 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:27,539 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,539 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,571 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,572 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,572 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:27,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:27,774 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,775 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:27,807 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,808 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:27,808 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:28,009 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:28,010 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,011 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,044 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,044 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,044 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:28,246 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:28,246 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,247 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,280 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,281 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,281 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:28,482 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:28,483 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,484 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,517 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,517 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,517 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:28,719 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:28,720 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,720 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,753 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,754 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,754 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:28,956 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:28,956 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,957 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:28,991 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,991 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:28,991 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:29,193 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:29,195 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,195 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,228 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,229 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,229 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:29,431 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:29,432 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,432 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,465 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,466 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,466 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:29,667 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:29,668 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,668 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,701 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,702 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,702 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:29,904 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:29,905 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,905 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:29,938 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,939 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:29,939 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:30,141 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:30,141 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,175 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,176 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,176 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:30,377 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:30,378 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,411 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,412 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,412 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:30,613 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:30,614 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,614 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,647 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,648 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,648 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:30,849 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:30,850 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,850 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:30,883 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,884 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:30,884 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:31,086 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:31,087 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,087 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,120 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,121 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,121 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:31,322 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:31,323 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,324 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,357 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,358 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,358 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:31,560 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:31,561 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,561 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,594 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,595 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,595 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:31,797 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:31,798 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,798 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:31,831 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,832 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:31,832 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:32,034 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:32,035 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,035 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,068 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,069 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,069 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:32,270 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:32,271 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,271 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,305 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,306 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,306 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:32,507 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:32,508 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,508 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,542 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,543 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,543 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:32,744 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:32,745 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,745 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,779 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,780 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:32,780 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:32,981 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:32,982 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:32,983 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,016 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,016 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,017 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:33,218 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:33,219 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,220 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,253 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,253 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,254 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:33,455 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:33,457 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,457 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,490 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,491 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,491 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:33,693 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:33,694 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,694 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,728 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,729 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,729 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:33,931 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:33,932 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:33,965 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,965 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:33,966 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:34,167 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:34,168 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,169 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,202 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,203 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,203 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:34,404 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:34,405 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,406 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,439 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,440 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,440 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:34,641 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:34,642 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,643 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,676 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,676 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,677 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:34,878 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:34,879 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,880 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:34,913 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,914 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:34,914 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:35,116 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:35,117 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,117 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,150 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,150 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,151 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:35,352 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:35,353 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,353 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,387 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,387 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,388 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:35,589 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:35,590 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,590 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,623 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,623 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,624 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:35,825 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:35,826 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,826 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:35,860 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,860 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:35,861 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:36,062 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:36,063 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,063 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,096 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,096 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,097 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:36,298 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:36,299 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,300 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,333 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,333 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,334 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:36,535 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:36,536 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,537 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,570 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,570 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,571 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:36,772 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:36,773 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:36,807 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,808 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:36,808 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:37,009 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:37,010 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,011 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,044 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,044 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,045 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:37,246 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:37,247 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,248 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,281 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,281 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,282 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:37,483 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:37,484 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,484 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,518 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,518 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,519 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:37,720 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:37,721 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,721 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,755 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,756 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,756 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:37,957 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:37,958 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,958 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:37,992 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,992 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:37,993 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:38,194 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:38,195 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,196 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,229 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,229 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,229 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:38,431 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:38,432 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,433 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,466 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,466 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,466 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:38,668 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:38,669 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,669 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,703 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,703 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,704 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:38,905 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:38,906 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,907 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:38,940 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,940 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:38,941 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:39,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:39,143 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,143 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,177 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,177 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,177 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:39,379 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:39,380 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,380 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,414 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,414 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,415 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:39,616 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:39,617 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,617 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,651 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,651 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,651 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:39,853 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:39,854 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,854 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:39,888 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,888 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:39,888 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:40,090 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:40,091 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,091 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,125 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,125 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,125 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:40,327 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:40,328 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,329 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,363 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,363 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,364 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:40,565 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:40,566 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,566 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,600 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,600 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,600 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:40,802 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:40,803 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,803 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:40,837 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,837 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:40,837 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:41,039 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:41,040 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,040 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,074 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,074 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,074 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:41,276 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:41,277 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,277 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,311 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,311 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,311 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:41,513 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:41,513 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,514 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,547 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,547 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,547 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:41,749 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:41,749 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,750 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,782 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,783 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:41,783 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:41,985 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:41,985 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:41,986 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,018 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,019 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,019 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:42,220 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:42,221 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,222 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,254 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,255 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,255 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:42,456 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:42,457 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,458 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,490 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,491 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,491 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:42,693 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:42,694 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,694 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,728 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,728 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,728 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:42,930 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:42,931 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,932 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:42,966 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,966 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:42,967 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:43,168 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:43,169 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,169 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,202 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,203 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,203 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:43,405 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:43,406 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,406 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,440 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,440 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,440 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:43,642 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:43,643 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,643 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,676 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,677 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,677 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:43,879 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:43,880 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,880 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:43,914 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,914 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:43,914 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:44,116 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:44,117 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,117 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,150 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,151 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,151 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:44,353 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:44,354 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,354 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,387 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,388 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,388 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:44,590 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:44,591 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,591 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,624 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,625 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,625 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:44,826 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:44,828 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,828 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:44,861 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,862 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:44,862 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:45,064 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:45,065 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,065 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,098 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,099 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,099 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:45,301 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:45,302 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,302 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,335 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,336 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,336 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:45,537 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:45,538 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,538 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,571 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,572 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,572 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:45,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:45,774 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,775 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:45,807 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,808 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:45,808 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:46,009 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:46,010 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,010 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,043 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,044 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,044 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:46,245 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:46,246 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,246 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,279 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,280 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,280 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:46,481 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:46,482 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,482 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,516 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,517 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,517 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:46,718 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:46,719 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,720 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,753 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,754 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,754 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:46,955 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:46,956 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,956 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:46,990 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,991 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:46,991 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:47,192 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:47,193 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,194 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,227 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,228 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,228 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:47,429 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:47,430 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,431 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,464 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,465 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,465 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:47,667 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:47,668 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,668 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,701 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,702 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,702 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:47,903 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:47,904 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,905 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:47,938 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,939 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:47,939 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:48,141 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:48,141 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,142 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,175 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,176 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,176 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:48,377 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:48,378 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,378 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,412 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,412 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,413 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:48,614 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:48,615 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,615 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,649 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,649 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,650 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:48,851 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:48,852 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,852 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:48,886 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,886 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:48,887 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:49,088 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:49,089 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,089 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,123 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,124 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,124 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:49,326 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:49,327 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,327 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,360 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,360 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,361 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:49,562 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:49,563 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,563 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,596 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,596 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,597 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:49,798 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:49,799 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,799 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:49,833 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,833 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:49,834 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:50,035 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:50,036 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,036 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,070 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,070 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,071 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:50,272 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:50,273 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,273 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,306 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,306 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,307 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:50,508 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:50,509 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,509 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,542 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,542 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,543 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:50,744 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:50,745 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,745 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,779 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,779 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:50,780 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:50,981 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:50,982 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:50,982 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,016 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,016 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,017 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:51,218 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:51,219 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,219 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,253 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,253 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,254 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:51,455 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:51,456 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,456 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,490 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,490 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,491 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:51,692 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:51,693 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,694 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,727 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,727 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,728 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:51,929 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:51,930 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,930 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:51,964 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,964 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:51,965 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:52,166 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:52,167 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,167 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,201 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,201 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,202 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:52,403 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:52,404 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,404 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,438 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,438 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,439 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:52,640 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:52,641 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,641 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,675 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,675 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,676 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:52,877 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:52,878 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,878 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:52,912 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,912 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:52,912 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:53,114 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:53,115 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,116 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,149 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,149 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,149 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:53,351 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:53,352 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,352 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,386 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,386 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,387 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:53,588 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:53,589 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,590 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,623 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,623 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,623 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:53,825 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:53,826 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,826 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:53,860 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,860 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:53,860 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:54,062 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:54,063 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,063 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,097 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,097 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,097 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:54,299 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:54,300 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,300 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,334 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,334 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,335 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:54,536 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:54,537 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,537 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,571 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,571 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,571 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:54,773 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:54,774 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,774 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:54,809 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,809 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:54,810 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:55,011 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:55,012 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,013 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,046 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:55,046 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:55,046 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:55,248 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:55,249 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,249 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,283 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:55,283 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 0000 00010000 00000010
+2024-07-08 11:40:55,283 DEBUG: efx_dbg.jtag (1379): get_la_status(): new status = {'state': 'WAIT_TRIG', 'sample_cnt': 512}
+2024-07-08 11:40:55,485 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 1000
+2024-07-08 11:40:55,486 INFO: efx_dbg.jtag (1364): get_la_status(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,486 DEBUG: efx_dbg.jtag.jcf (67): log(): write_dr: 18: 01 10100000 00000000
+2024-07-08 11:40:55,520 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(20): 20: 1111 11111111 11111111
+2024-07-08 11:40:55,520 INFO: efx_dbg.jtag (1368): get_la_status(): read_dr(20): 20: 1111 11111111 11111111
+2024-07-08 11:40:55,524 DEBUG: efx_dbg.jtag (1599): on_error_wrapper(): on_error_wrapper, observers = [(<bound method QLogicNController.on_status_update of <efx_dbg.adapter.QLogicNController object at 0x7363037d1f30>>, <bound method QLogicNController.on_error of <efx_dbg.adapter.QLogicNController object at 0x7363037d1f30>>)]
+2024-07-08 11:40:55,613 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:55,656 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 0011
+2024-07-08 11:40:55,672 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:55,732 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:55,777 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 0011
+2024-07-08 11:40:55,793 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:55,853 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:55,911 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 5: 11111
+2024-07-08 11:40:58,528 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111
+2024-07-08 11:40:58,574 DEBUG: efx_dbg.jtag.jcf (67): log(): write_ir: 4: 0011
+2024-07-08 11:40:58,590 DEBUG: efx_dbg.jtag.jcf (67): log(): read_dr(32): 32: 11111111 11111111 11111111 11111111

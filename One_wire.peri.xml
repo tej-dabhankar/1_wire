@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efxpt:design_db name="One_wire" device_def="T120F324" location="/home/tejas/Downloads/efinity/2023.2/project/One_wire" version="2023.2.307" db_version="20232999" last_change_date="Fri Jul  5 17:39:46 2024" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
+<efxpt:design_db name="One_wire" device_def="T120F324" location="/home/tejas/Downloads/efinity/2023.2/project/One_wire" version="2023.2.307" db_version="20232999" last_change_date="Mon Jul  8 10:54:21 2024" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
     <efxpt:device_info>
         <efxpt:iobank_info>
             <efxpt:iobank name="1A" iostd="3.3 V LVTTL / LVCMOS"/>
@@ -21,10 +21,10 @@
         </efxpt:ctrl_info>
     </efxpt:device_info>
     <efxpt:gpio_info device_def="T120F324">
-        <efxpt:gpio name="clk" gpio_def="GPIOR_186" mode="input" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
-            <efxpt:input_config name="clk" name_ddio_lo="" conn_type="pll_clkin" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
+        <efxpt:gpio name="clk_pll" gpio_def="GPIOR_188" mode="input" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
+            <efxpt:input_config name="clk_pll" name_ddio_lo="" conn_type="pll_clkin" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
         </efxpt:gpio>
-        <efxpt:gpio name="i_rx_serial" gpio_def="GPIOR_187" mode="input" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
+        <efxpt:gpio name="i_rx_serial" gpio_def="GPIOR_168" mode="input" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
             <efxpt:input_config name="i_rx_serial" name_ddio_lo="" conn_type="normal" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
         </efxpt:gpio>
         <efxpt:gpio name="led" gpio_def="GPIOT_RXN27" mode="output" bus_name="" is_lvds_gpio="true" io_standard="3.3 V LVTTL / LVCMOS">
@@ -37,7 +37,12 @@
         </efxpt:gpio>
         <efxpt:global_unused_config state="input with weak pullup"/>
     </efxpt:gpio_info>
-    <efxpt:pll_info/>
+    <efxpt:pll_info>
+        <efxpt:pll name="clk_pll" pll_def="PLL_BR2" ref_clock_name="" ref_clock_freq="10.0000" multiplier="160" pre_divider="1" post_divider="8" reset_name="" locked_name="" is_ipfrz="false" is_bypass_lock="true">
+            <efxpt:output_clock name="clk" number="0" out_divider="4" adv_out_phase_shift="0"/>
+            <efxpt:adv_prop ref_clock_mode="external" ref_clock1_name="" ext_ref_clock_id="2" clksel_name="" feedback_clock_name="" feedback_mode="internal"/>
+        </efxpt:pll>
+    </efxpt:pll_info>
     <efxpt:lvds_info/>
     <efxpt:mipi_info/>
     <efxpt:jtag_info/>

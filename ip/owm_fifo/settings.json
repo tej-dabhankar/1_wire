@@ -1,0 +1,45 @@
+{
+    "args": [
+        "-o",
+        "owm_fifo",
+        "--base_path",
+        "/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "5",
+        "DATA_WIDTH": "8",
+        "MODE": "\"STANDARD\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "20",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "18",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "4",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TRION\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/owm_fifo/owm_fifo_tmpl.vhd",
+            "/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/owm_fifo/owm_fifo_define.vh",
+            "/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/owm_fifo/owm_fifo_tmpl.v",
+            "/home/tejas/Downloads/efinity/2023.2/project/One_wire/ip/owm_fifo/owm_fifo.v"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-07-08T09:53:28.381811"
+}

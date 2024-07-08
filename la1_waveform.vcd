@@ -1,0 +1,28 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 1 0 owm_dt_ctrl/r_write $end
+$var wire 8 1 owm_dt_ctrl/r_write_data $end
+$var wire 4 2 owm_dt_ctrl/state $end
+$var wire 5 3 owm_interface/state $end
+$var wire 1 4 owm_interface/write $end
+$var wire 8 5 owm_interface/write_data $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+b00000000 1
+b0001 2
+b00000 3
+04
+b00000000 5
+$end
+#1023
+00
+b00000000 1
+b0001 2
+b00000 3
+04
+b00000000 5

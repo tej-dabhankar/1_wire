@@ -1,0 +1,17 @@
+[dumpfile] "/home/tejas/Downloads/efinity/2023.2/project/One_wire/la1_waveform.vcd"
+[dumpfile_mtime] "Sat Jul 06 11:20:40 2024"
+[dumpfile_size] 467
+[savefile] "/home/tejas/Downloads/efinity/2023.2/project/One_wire/la1_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 512 1536 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\owm_dt_ctrl/r_write
+top.\owm_dt_ctrl/r_write_data[7:0]
+top.\owm_dt_ctrl/state[3:0]
+top.\owm_interface/state[4:0]
+top.\owm_interface/write
+top.\owm_interface/write_data[7:0]

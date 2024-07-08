@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<efxpt:issue_info xmlns:efxpt="http://www.efinixinc.com/peri_design_db"><efxpt:issue instance_name="clk" instance_type="gpio" severity="warning" rule_name="gpio_rule_alt_conn" message="Connection type pll_clkin must be used by valid PLL" /></efxpt:issue_info>

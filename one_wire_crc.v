@@ -52,14 +52,14 @@ case (state)
             r_crc_valid <= 1;
             state <= IDLE;
         end else begin
-        /* CRC Algorithm Depending upon CRC Polynomial */
-        //r_shift[14]  <= (crc_poly[14]) ? (r_shift[14] ^ r_shift[13]) : r_shift[13];
-        //r_shift[13]  <= (crc_poly[13]) ? (r_shift[14] ^ r_shift[12]) : r_shift[12];
-        //r_shift[12]  <= (crc_poly[12]) ? (r_shift[14] ^ r_shift[11]) : r_shift[11];
-        //r_shift[11]  <= (crc_poly[11]) ? (r_shift[14] ^ r_shift[10]) : r_shift[10];
-        //r_shift[10]  <= (crc_poly[10]) ? (r_shift[14] ^ r_shift[9])  : r_shift[9];
-        //r_shift[9]   <= (crc_poly[9])  ? (r_shift[14] ^ r_shift[8])  : r_shift[8];
-        //r_shift[8]   <= (crc_poly[8])  ? (r_shift[14] ^ r_shift[7])  : r_shift[7];
+            /* CRC Algorithm Depending upon CRC Polynomial */
+            //r_shift[14]  <= (crc_poly[14]) ? (r_shift[14] ^ r_shift[13]) : r_shift[13];
+            //r_shift[13]  <= (crc_poly[13]) ? (r_shift[14] ^ r_shift[12]) : r_shift[12];
+            //r_shift[12]  <= (crc_poly[12]) ? (r_shift[14] ^ r_shift[11]) : r_shift[11];
+            //r_shift[11]  <= (crc_poly[11]) ? (r_shift[14] ^ r_shift[10]) : r_shift[10];
+            //r_shift[10]  <= (crc_poly[10]) ? (r_shift[14] ^ r_shift[9])  : r_shift[9];
+            //r_shift[9]   <= (crc_poly[9])  ? (r_shift[14] ^ r_shift[8])  : r_shift[8];
+            //r_shift[8]   <= (crc_poly[8])  ? (r_shift[14] ^ r_shift[7])  : r_shift[7];
             r_shift[7]   <= (crc_poly[7])  ? (r_shift[7] ^ r_shift[6])  : r_shift[6];
             r_shift[6]   <= (crc_poly[6])  ? (r_shift[7] ^ r_shift[5])  : r_shift[5];
             r_shift[5]   <= (crc_poly[5])  ? (r_shift[7] ^ r_shift[4])  : r_shift[4];

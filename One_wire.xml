@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="One_wire" description="" last_change="1720183861" sw_version="2023.2.307" last_run_state="fail" last_run_flow="syn" config_result_in_sync="true" design_ood="" place_ood="change" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="One_wire" description="" last_change="1720432410" sw_version="2023.2.307" last_run_state="pass" last_run_flow="bitstream" config_result_in_sync="true" design_ood="change" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T120F324"/>
         <efx:timing_model name="C4"/>
     </efx:device_info>
     <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008">
-        <efx:top_module name="one_wire_interface"/>
+        <efx:top_module name="one_wire"/>
         <efx:design_file name="one_wire.v" version="default" library="default"/>
         <efx:design_file name="one_wire_crc.v" version="default" library="default"/>
         <efx:design_file name="one_wire_inteface.v" version="default" library="default"/>
@@ -23,8 +23,8 @@
     <efx:sim_info/>
     <efx:misc_info/>
     <efx:ip_info>
-        <efx:ip instance_name="one_wire_fifo" path="ip/one_wire_fifo/settings.json">
-            <efx:ip_src_file name="one_wire_fifo.v"/>
+        <efx:ip instance_name="owm_fifo" path="ip/owm_fifo/settings.json">
+            <efx:ip_src_file name="owm_fifo.v"/>
         </efx:ip>
     </efx:ip_info>
     <efx:synthesis tool_name="efx_map">
@@ -56,7 +56,7 @@
         <efx:param name="use-logic-for-small-rom" value="64" value_type="e_integer"/>
         <efx:param name="mult_input_regs_packing" value="1" value_type="e_option"/>
         <efx:param name="mult_output_regs_packing" value="1" value_type="e_option"/>
-        <efx:param name="include" value="ip/one_wire_fifo" value_type="e_string"/>
+        <efx:param name="include" value="ip/owm_fifo" value_type="e_string"/>
     </efx:synthesis>
     <efx:place_and_route tool_name="efx_pnr">
         <efx:param name="work_dir" value="work_pnr" value_type="e_string"/>
@@ -89,7 +89,7 @@
     </efx:bitstream_generation>
     <efx:debugger>
         <efx:param name="work_dir" value="work_dbg" value_type="e_string"/>
-        <efx:param name="auto_instantiation" value="off" value_type="e_bool"/>
-        <efx:param name="profile" value="NONE" value_type="e_string"/>
+        <efx:param name="auto_instantiation" value="on" value_type="e_bool"/>
+        <efx:param name="profile" value="debug_profile.wizard.json" value_type="e_string"/>
     </efx:debugger>
 </efx:project>

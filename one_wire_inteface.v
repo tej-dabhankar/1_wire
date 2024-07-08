@@ -1,9 +1,6 @@
 module one_wire_interface (
-
-    input                                           clk,
+    input                                           clk,                  
     
-                  /*INPUT FROM THE DATA CTRL */
-    input                                           data_valid,
     input [UID_SERIAL_DATA_WIDTH-1:0]               UID_Data,
     input [FIFO_WIDTH-1:0]                          ROM_commad,
     input                                           read_match,
@@ -12,7 +9,6 @@ module one_wire_interface (
     input  [ADDRESS_WIDTH-1:0]                      address,
     input [5:0]                                     data_length,
     input                                           write,
-   
                     /*INPUT FOROM THE CRC*/
     input [7:0]                                     crc_data,
     input                                           crc_valid,
@@ -21,13 +17,12 @@ module one_wire_interface (
     input [7:0]                                     write_data,
     input                                           data_dv,
     output                                          read_enable,
-    output                                          read_address,
+    output [5:0]                                    read_address,
     
     input                                           data_in,
-    output                                          data_out, 
+    output                                          data_out,
     output                                          data_oe
-    );
-    
+    );  
     
                 /*parameter declaration*/ 
   
@@ -42,30 +37,27 @@ module one_wire_interface (
     reg [15:0] high_count;
     reg [15:0] low_count;
     reg [31:0] reset_count;
-    reg [15:0] bit_counter;
+    //reg [15:0] bit_counter = 3500;
     reg [31:0] presence_count;
    
-    reg r_data_out =1'b1;
-    reg r_data_out_enable = 1'b1;
+    reg r_data_out ;
+    reg r_data_oe = 1'b1;
     
-    reg [UID_SERIAL_DATA_WIDTH-1:0] r_UID = 0;
-    reg [7:0] r_crc = 0;
-    reg [UID_DATA_WIDTH-1:0] r_UID_Data = 64'h0000000000000000;
+    reg [UID_DATA_WIDTH-1:0] r_UID_Data = 0;
     reg [UID_DATA_WIDTH-1:0] read_UID_Data = 0;
     
-    reg [7:0] read_data_reg [0:31];
+    //reg [7:0] read_data_reg [0:31];
     
     reg r_read_match = 0; 
     reg r_read_write = 0; 
     
     reg [7:0] counter= 0;
-    reg [7:0] count_bit = 0;
+    //reg [7:0] count_bit = 0;
     reg [7:0] read_counter = 0;
     reg [7:0] r_ROM_command = 0;
     reg [7:0] r_write_data = 0;
     reg [7:0] r_Fun_cmd = 0;
     reg [15:0] r_address = 0;
-    reg [7:0] r_write_data = 0;
     reg [5:0] r_data_length = 0;
     reg [4:0] r_read_address = 0;
     
@@ -82,24 +74,22 @@ module one_wire_interface (
     reg reset_flag =0;
     reg high_flag = 0;
     reg low_flag = 0;
-    reg presence_flag = 0;
     reg read_UID_flag = 0;
-    reg read_flag     =0;
+    reg read_flag  =0;
     
-   
             /*Collecting Data from the Data_ctrl*/
             
     always @(posedge clk) begin
         if (write) begin
-            r_UID         <= UID_Data;
-            r_read_match  <=read_match;
-            r_read_write  <=read_write;
-            r_ROM_command <=ROM_commad;
+            r_UID_Data[UID_SERIAL_DATA_WIDTH-1:0] <= UID_Data;
+            r_read_match  <= read_match;
+            r_read_write  <= read_write;
+            r_ROM_command <= ROM_commad;
             r_Fun_cmd     <= Fun_cmd;
             r_address     <= address;
             r_data_length <= data_length;
         end else begin 
-            r_UID         <= r_UID;
+            r_UID_Data[UID_SERIAL_DATA_WIDTH-1:0] <= r_UID_Data[UID_SERIAL_DATA_WIDTH-1:0];
             r_read_match  <=r_read_match;
             r_read_write  <=r_read_write;
             r_ROM_command <=r_ROM_command;
@@ -108,22 +98,16 @@ module one_wire_interface (
             r_data_length <= r_data_length;
         end
     end
-
+    
           /*Collecting data from the CRC */
           
     always @(posedge clk) begin
         if (crc_valid) begin
-            r_crc <= crc_data;
+            r_UID_Data[UID_DATA_WIDTH-1:UID_SERIAL_DATA_WIDTH] <= crc_data;
         end else begin
-            r_crc <=  r_crc;
+            r_UID_Data[UID_DATA_WIDTH-1:UID_SERIAL_DATA_WIDTH] <= r_UID_Data[UID_DATA_WIDTH-1:UID_SERIAL_DATA_WIDTH];
         end
     end
-        
-    always @(posedge clk) begin
-        r_UID_Data <= {r_crc,r_UID};
-    end
-    
-
     
                 /* calculation for the counter  
             
@@ -139,50 +123,52 @@ module one_wire_interface (
                 high_count = 10/0.020 = 500 count
         
                 for low count of 60 microsecond
-                low count  = 60/0.020 = 3000 count
-    
+                low count  = 60/0.020 = 3000 count */
     
    /* State machine declaration*/ 
-    reg [4:0] state =4'b0000;
+    reg [4:0] state =5'b0000;
    
-    localparam IDLE                     = 5'b00000;
-    localparam RESET                    = 5'b00001;
-    localparam WAIT_RESET               = 5'b00010;
-    localparam DETECT_PRESENCE          = 5'b00011;
-    localparam WAIT_DETECT_PRESENCE     = 5'b00100;
-    localparam SEND_ROM_COMMAND         = 5'b00101;
-    localparam WAIT_ROM_COMMAND         = 5'b00110;
-    localparam MATCH_UID                = 5'b00111;
-    localparam WAIT_MATCH_UID           = 5'b01000;
-    localparam READ_UID                 = 5'b01001;
-    localparam WAIT_READ_UID            = 5'b01010;
-    localparam SEND_FUNC_CMD            = 5'b01011;
-    localparam WAIT_FUNC_CMD            = 5'b01100;
-    localparam SEND_READ_WRITE_ADDRESS  = 5'b01101;
-    localparam WAIT_READ_WRITE_ADDRESS  = 5'b01110;
-    localparam READ_DATA                = 5'b01111;
-    localparam WAIT_READ                = 5'b10000;
-    localparam WRITE_DATA               = 5'b10001;
-    localparam WAIT_DATA                = 5'b10010;
-    localparam WAIT_WRITE               = 5'b10011;
+    localparam IDLE                     = 5'h0;
+    localparam RESET                    = 5'h1;
+    localparam WAIT_RESET               = 5'h2;
+    localparam DETECT_PRESENCE          = 5'h3;
+    localparam WAIT_DETECT_PRESENCE     = 5'h4;
+    localparam SEND_ROM_COMMAND         = 5'h5;
+    localparam WAIT_ROM_COMMAND         = 5'h6;
+    localparam MATCH_UID                = 5'h7;
+    localparam WAIT_MATCH_UID           = 5'h8;
+    localparam READ_UID                 = 5'h9;
+    localparam WAIT_READ_UID            = 5'hA;
+    localparam SEND_FUNC_CMD            = 5'hB;
+    localparam WAIT_FUNC_CMD            = 5'hC;
+    localparam SEND_READ_WRITE_ADDRESS  = 5'hD;
+    localparam WAIT_READ_WRITE_ADDRESS  = 5'hE;
+    localparam READ_DATA                = 5'hF;
+    localparam WAIT_READ                = 5'h10;
+    localparam WRITE_DATA               = 5'h11;
+    localparam WAIT_DATA                = 5'h12;
+    localparam WAIT_WRITE               = 5'h13; 
    
-   
-    always @(posedge clk) begin
-    
-        case (state) // FSM begin
-        
+    always @(posedge clk) begin 
+        case (state) // FSM begin        
             IDLE : begin                         //00
-                if (write == 1) begin
-                    state <= RESET;
-                end else  state <= IDLE;
+                reset_flag <=1'b0;
+
+                high_flag <=1'b0;
+                low_flag <=1'b0;
+                counter <=0;
+                presence_count <=0;
                 
+                r_read_enable <= 1'b0;
+                
+                if (write) begin
+                    state <= RESET;
+                end else  state <= IDLE;         
             end
             
             RESET : begin                         //01
                 reset_flag <=1;
-                state <=RESET;
-                
-                
+                state <=WAIT_RESET;        
             end
             
             WAIT_RESET :  begin                   //02
@@ -193,7 +179,7 @@ module one_wire_interface (
             end
             
             DETECT_PRESENCE : begin              //03
-                if (!r_data_out) begin
+                if (!data_in) begin
                     presence_count <= presence_count +1;
                     state <= DETECT_PRESENCE;
                 end else begin
@@ -203,7 +189,7 @@ module one_wire_interface (
             
             WAIT_DETECT_PRESENCE : begin           //04
                 if (presence_count>4000) begin
-                        state <= SEND_ROM_COMMAND;
+                    state <= SEND_ROM_COMMAND;
                 end else begin
                     state <=IDLE;
                 end 
@@ -220,11 +206,14 @@ module one_wire_interface (
             end    
             
             WAIT_ROM_COMMAND : begin                  //06
-                if (high_flag || low_flag == 1) begin
+                if (!write_done_flag) begin
                     state <= WAIT_ROM_COMMAND;                        
                 end else begin
+                    high_flag <=1'b0;
+                    low_flag <= 1'b0;
+                    
                     if (counter <7) begin
-                        counter <=counter+1;
+                        counter <=counter + 1'b1;
                         state <= WAIT_ROM_COMMAND;
                     end else begin
                         counter <= 0;
@@ -248,43 +237,24 @@ module one_wire_interface (
                 end
             end
             
+            
             WAIT_MATCH_UID : begin                    //08
                 if (!write_done_flag) begin
                     state <= WAIT_MATCH_UID;                        
                 end else begin
-                    if (counter <63) begin
                         high_flag <=1'b0;
                         low_flag <= 1'b0;
-                        counter <=counter + 1;
+                        
+                    if (counter <63) begin
+                        counter <=counter + 1'b1;
                         state <= MATCH_UID;
                     end else begin
                         counter <= 0;
-                        high_flag <=1'b0;
-                        low_flag <= 1'b0;
                         state <= SEND_FUNC_CMD;
                     end
                 end
             end   
-             
-            READ_UID : begin                         //09
-                high_flag     <=1'b1;
-                read_flag     <=1'b1;
-                state <= WAIT_READ_UID;
-            end
-            
-            WAIT_READ_UID : begin                   //10
-                if (high_flag || low_flag == 0) begin
-                    read_UID_Data[counter] <= read_bit;
-                
-                    if (counter ==63) begin
-                        state <= RESET;
-                    end else begin
-                        counter <= counter +1;
-                        state <= WAIT_READ_UID;
-                    end
-                end
-            end
-            
+
             SEND_FUNC_CMD : begin                   //11
                 if (r_Fun_cmd[counter]) begin
                     high_flag <=1'b1;
@@ -295,19 +265,22 @@ module one_wire_interface (
                 end
             end
             
-            WAIT_FUNC_CMD : begin                  //12
-                if (high_flag || low_flag == 1) begin
+            WAIT_FUNC_CMD : begin                  //12 
+                if (!write_done_flag) begin
                     state <= WAIT_FUNC_CMD;                        
                 end else begin
+                    high_flag <=1'b0;
+                    low_flag <= 1'b0;
+                        
                     if (counter <7) begin
-                        counter <=counter + 1;
+                        counter <=counter + 1'b1;
                         state <= SEND_FUNC_CMD;
                     end else begin
                         counter <= 0;
                         state <= SEND_READ_WRITE_ADDRESS;
                     end
                 end
-            end  
+            end              
             
             SEND_READ_WRITE_ADDRESS : begin           //13
                 if (r_address[counter]) begin
@@ -320,11 +293,13 @@ module one_wire_interface (
             end
             
             WAIT_READ_WRITE_ADDRESS : begin             //14
-                if (high_flag || low_flag == 1) begin
-                    state <= WAIT_FUNC_CMD;                        
+                if (!write_done_flag) begin
+                    state <= WAIT_READ_WRITE_ADDRESS;                        
                 end else begin
+                    high_flag <=1'b0;
+                    low_flag <= 1'b0;
                     if (counter < 15) begin
-                        counter <=counter + 1;
+                        counter <=counter + 1'b1;
                         state <= SEND_READ_WRITE_ADDRESS;
                     end else begin
                         counter <= 0;
@@ -337,33 +312,6 @@ module one_wire_interface (
                     end
                 end
             end  
-
-            READ_DATA : begin                          //15
-                high_flag     <=1'b1;
-                read_flag     <=1'b1;
-                state <= WAIT_READ;
-            end
-            
-            WAIT_READ : begin                          //16
-                if (high_flag || low_flag == 0) begin
-                    read_data_reg[counter][depth] <= read_bit;
-                
-                    if (counter <7) begin
-                        counter <= counter +1;
-                        state <=READ_DATA;
-                        
-                    end else begin
-                        depth <= depth +1;
-                        counter <=0;
-                        
-                        if (depth < r_data_length) begin
-                            state <= READ_DATA;
-                        end else begin  
-                            state <= IDLE; 
-                        end
-                    end
-                end
-            end
             
             WRITE_DATA : begin
                 r_read_enable <=1;
@@ -386,58 +334,54 @@ module one_wire_interface (
             end
             
             WAIT_WRITE : begin                    //08
-                if (write_done_flag && read_done_flag) begin
+                if (!write_done_flag) begin
                     state <= WAIT_WRITE;                        
                 end else begin
                     if (counter <7) begin
-                        counter <=counter + 1;
+                        counter <=counter + 1'b1;
                         state <= WRITE_DATA;
                     end else begin
                         counter <= 0;
                         
                         if (depth < r_data_length) begin
-                            depth <= depth +1;
+                            depth <= depth + 1'b1;
                             state <= WRITE_DATA;
                         end else begin        
                         state <= IDLE;
                         end
                     end
-                high_flag <= 1'b0;
-                low_flag  <=  1'b0;
-                read_flag  <=1'b0;
-                
+                    high_flag <= 1'b0;
+                    low_flag  <=  1'b0;               
                 end
             end                                  
         endcase
     end
 
     
-    reg [1:0] write_state ;
-    localparam [1:0] WRITE_IDLE       = 2'b00;
-    localparam [1:0] WRITE_LOW        = 2'b01;
-    localparam [1:0] WRITE_HIGH       = 2'b10;
-    localparam [1:0] WRITE_RESET      = 2'b11;
+    reg [2:0] write_state = 3'h0;
+    localparam [2:0] WRITE_IDLE       = 3'h0;
+    localparam [2:0] WRITE_CONDITION  = 3'h1;
+    localparam [2:0] WRITE_LOW        = 3'h2;
+    localparam [2:0] WRITE_HIGH       = 3'h3;
+    localparam [2:0] WRITE_RESET      = 3'h4;
 
     always @(posedge clk) begin 
         case (write_state)
-            WRITE_IDLE : begin
+            WRITE_IDLE: begin
+                write_done_flag <= 1'b0;
+                write_state <= WRITE_CONDITION;
+            end                
+            
+            WRITE_CONDITION : begin
                 if (reset_flag) begin
                     low_count  <= RESET_COUNT;
                     high_count <= 4000;
                     write_state <= WRITE_LOW;
-                end else begin
-                    write_state <= WRITE_IDLE;
-                end
-                
-                if (high_flag) begin
+                end else if (high_flag) begin
                     low_count  <= 500;
                     high_count <= 3000;
                     write_state <=WRITE_LOW;
-                end else begin
-                    write_state <= WRITE_IDLE;
-                end
-                
-                if (low_flag) begin
+                end else if (low_flag) begin
                     low_count <= 3000;
                     high_count <= 500;
                     write_state <=WRITE_LOW;
@@ -445,7 +389,6 @@ module one_wire_interface (
                     write_state <= WRITE_IDLE;
                 end
                 
-                write_done_flag <= 1'b0;
             end
             
             WRITE_LOW : begin
@@ -454,7 +397,7 @@ module one_wire_interface (
                 if (low_count ==0) begin
                     write_state <=WRITE_HIGH ;
                 end else begin 
-                    low_count <= low_count -1;
+                    low_count <= low_count -1'b1;
                     write_state <= WRITE_LOW;
                 end
             end    
@@ -465,77 +408,22 @@ module one_wire_interface (
                 if (high_count ==0) begin
                    write_state <= WRITE_RESET;
                 end else begin 
-                    high_count <=high_count -1;
+                    high_count <=high_count -1'b1;
                     write_state <=WRITE_HIGH;
                 end
            end
            
            WRITE_RESET : begin
                 write_done_flag <=1'b1;
- //               reset_flag <=0;
- //               high_flag <= 0;
- //               low_flag <=0;
-                
                 write_state <=WRITE_IDLE;
            end
         endcase 
     end
-    
-    
-    reg [1:0] read_state ;
-    localparam [1:0] READ_IDLE  = 2'b00;
-    localparam [1:0] COUNT_BIT  = 2'b01;
-    localparam [1:0] LATCH_DATA = 2'b10;
-    localparam [1:0] READ_RESET = 2'b11;
 
-    always @(posedge clk) begin
-        
-        case (read_state)
-            READ_IDLE : begin
-                if (read_flag) begin
-                    read_state <= COUNT_BIT;
-                end else begin
-                    read_state <= READ_IDLE;
-                end
-            end 
-
-            COUNT_BIT : begin
-                if (!data_in) begin
-                    read_counter <= read_counter + 1;
-                end else begin
-                    read_counter <= read_counter;
-                end
-            
-                if (bit_counter == 0) begin
-                    read_state <= LATCH_DATA;
-                end else begin
-                    bit_counter <=bit_counter -1;
-                    read_state <= COUNT_BIT;
-                end
-            end
-            
-            LATCH_DATA : begin
-                if( read_counter > 2000) begin
-                        read_bit <= 1'b0;
-                end else begin 
-                        read_bit <=1'b1;
-                end   
-                read_state <= READ_RESET;
-
-             end
-             
-            READ_RESET : begin
-                read_done_flag     <= 1'b1;
-                read_counter  <= 0;
-                read_state <= READ_IDLE;
-            end
-        endcase
-    end
-    
     assign data_out = r_data_out;
     assign read_enable = r_read_enable;
     assign read_address = r_read_address;
-    assign data_oe =1'b1;
+    assign data_oe = r_data_oe;
     
     endmodule
    

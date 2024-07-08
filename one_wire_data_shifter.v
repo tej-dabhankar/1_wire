@@ -1,14 +1,16 @@
 module one_wire_shifter (
         
         input clk,
-        
+        // input from the data ctrl 
         input data_valid,
         input [UID_SERIAL_DATA_WIDTH-1:0] UID_Data,
         
+        // signal to the CRC+
         output               start_crc,
         output               data_stream
         );
         
+        /* parameter declaaratiom*/
         parameter UID_SERIAL_DATA_WIDTH =56;
         parameter FIFO_WIDTH = 8;
         
