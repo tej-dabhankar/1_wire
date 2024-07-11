@@ -1,122 +1,104 @@
-module ows_interface (
+`include "ows_header.vh"
+module ows_top(
 	input clk,
-	input data_in,
-    input data_en,
+
+    input data_in,
+    output data_out,
+    output data_out_oe,
+  
+    output led
+    );
+
+    assign led =1;
     
-    output start_flag,
-    output [DATA_WIDTH-1:0] data,
-    output write
+    /* wire */
+    wire w_start_flag;
+    wire w_write;
+    wire [7:0] w_data;
+    wire [7:0] w_ROM_cmd;
+    wire [7:0] w_FUN_cmd;
+    wire [63:0] w_UID_dt;
+    wire [15:0] w_address;
+    wire [7:0] w_wr_data;
+    wire w_write_ctrl;
+    wire w_crc_zero;
+    
+ 
+    ows_rd_interface  ows_rdintr(
+        .clk(clk),
+        .data_in(data_in),
+        .stop_flg(w_stop_flag),
+        
+        .start_flag(w_start_flag),
+        .data(w_data),
+        .write(w_write)
 	);
     
-parameter DATA_WIDTH =8;
+    ows_data_select ows_ds(
+		.clk(clk),
+		.data(w_data),
+        .write(w_write),
+        .start_flg(w_start_flag),
 
-reg [31:0]  counter =0;
-reg [7:0] bit_counter = 0;
-reg [7:0] bit_count = 0;
+		.ROM_cmd (w_ROM_cmd),
+		.FUN_cmd (w_FUN_cmd),
+		.UID_dt(w_UID_dt),
+		.address(w_address),
+		.wr_data(w_wr_data),
+ 		.write_ctrl(w_write_ctrl)
+    );
+    
+    ows_dt_ctrl  ows_dtctrl(
+		.clk(clk),
+		.write_ctrl(w_write_ctrl),
+		.start_flag(w_start_flag),
+        .ROM_cmd(w_ROM_cmd),
+       	.FUN_cmd(w_FUN_cmd),
+        .address(w_address),
+        .UID(w_UID_dt),
+        .wr_data(w_wr_data),
+		.crc_zero(w_crc_zero),
 
-reg [7:0] r_data = 0;
-reg r_write = 0;
-reg data_bit = 0;
-reg r_presence = 0;
-
-reg [5:0]  state = 5'h00;
-
-localparam IDLE = 5'h00;
-localparam WAIT_START = 5'h1;
-localparam START_PRESENCE = 5'h2;
-localparam WAIT_PRESENCE = 5'h3;
-localparam WAIT_DATA     = 5'h4;
-localparam DETECT_BIT    = 5'h5;
-localparam FETCH_DATA   = 5'h6;
-localparam WRITE         = 5'h7;
-localparam WAIT_WRITE    = 5'h8;
-
-
-always @(posedge clk) begin
-	case (state)
-	   IDLE : begin
-		counter <= 0;
-		bit_counter <=0;
-        bit_count <= 0;
-        data_bit <=0;
-		state <= WAIT_START;
-	   end 	
-          
-	   WAIT_START :  begin
-			if (!data_in) begin
-				counter <= counter + 1;
-				if (counter >23950) begin
-					state <= WAIT_PRESENCE;
-					counter<= 0;
-				end else begin
-					state <= WAIT_START;
-				end
-			end else begin
-				state <= IDLE;
-			end
-		end
-
-		START_PRESENCE : begin
-            r_presence <=1'b1;
-            state <= WAIT_PRESENCE;
-        end
-
-        WAIT_PRESENCE : begin
-            r_presence <=1'b0;
-            state <= WAIT_DATA;
-		end								
-
-		WAIT_DATA : begin
-			if (!data_in) begin
-				counter <= counter + 1;
-				state <= WAIT_DATA;
-            end else if (bit_counter > 3450) begin
-				bit_counter <= 0;
-				state <=DETECT_BIT;
-			end else begin
-				state  <= WAIT_DATA;
-			end
-        bit_counter <= bit_counter + 1;
-		end
-
-		DETECT_BIT : begin  
-            if (counter > 20000) begin
-                state <= START_PRESENCE;
-            end else if (counter > 2000) begin
-                state <= FETCH_DATA;
-				data_bit <= 1'b0;
-			end else if (counter >100) begin 
-				data_bit <= 1'b1;
-                state <= FETCH_DATA;
-			end else begin
-                state <= IDLE;
-            end 
-		end
-
-		FETCH_DATA :  begin
-            r_data[bit_count]  = data_bit;			
-            if ( bit_count <7) begin
-                bit_count <= bit_count + 1;
-                state  <= WAIT_DATA ;
-            end else begin 
-                bit_count <= 0;
-                state <= WRITE;
-            end
-        end
+		.snd_prsnc(w_snd_prsnc),
+		.stop_flg(w_stop_flag)
+    );
+    
+    osw_dt_shifter ows_dtshft(
         
-        WRITE : begin
-            r_write <= 1'b1;
-            state <= WAIT_WRITE;
-        end
+        .clk(clk),
+        // input from the data ctrl 
+        .data_valid(w_data_valid),
+        .UID_Data(w_UID_dt),
+        
+        // signal to the CRC+
+        .start_crc(w_start_crc),
+        .data_stream(w_data_strem)
+    );
+    
+    ows_crc owscrc(
+    /* Clock Signals */
+    .clk(clk),
+    
+    /* Input data stream and control signals */
+    .start_crc(w_start_crc),
+    .data_stream(w_data_strem),
+    
+    /* Output Computed CRC and control signals */
+    .crc_data(w_crc_data),
+    .crc_valid(w_crc_valid),
+    .crc_zero(w_crc_zero)
+    
+    );
+    
+    ows_wr_interface ows_wrinterface(
        
-        WAIT_WRITE : begin
-            r_write <= 1'b0;
-            state <= WAIT_DATA;
-        end
-    endcase 
-end
-
-assign write =r_write;
-assign data =r_data;
+    .clk(clk),
+	.snd_prsnc(w_snd_prsnc),
+	
+	.data_out(data_out),
+	.data_out_oe(data_out_oe)
+    
+    
+);
 
 endmodule

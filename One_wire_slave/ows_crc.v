@@ -1,4 +1,4 @@
-module one_wire_crc(
+module ows_crc(
     /* Clock Signals */
     input               clk,
     
