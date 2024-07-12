@@ -94,11 +94,10 @@ module ows_top(
        
     .clk(clk),
 	.snd_prsnc(w_snd_prsnc),
+    .stop_flg(w_stop_flag),
 	
 	.data_out(data_out),
 	.data_out_oe(data_out_oe)
-    
-    
 );
 
 endmodule
