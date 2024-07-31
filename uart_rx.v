@@ -7,18 +7,18 @@ parameter CLKS_PER_BIT=435
  output [7:0] o_Rx_Byte
 );
   
-parameter s_IDLE         = 3'b000;
-parameter s_RX_START_BIT = 3'b001;
-parameter s_RX_DATA_BITS = 3'b010;
-parameter s_RX_STOP_BIT  = 3'b011;
-parameter s_CLEANUP      = 3'b100;
+localparam s_IDLE         = 3'b000;
+localparam s_RX_START_BIT = 3'b001;
+localparam s_RX_DATA_BITS = 3'b010;
+localparam s_RX_STOP_BIT  = 3'b011;
+localparam s_CLEANUP      = 3'b100;
  
 reg           r_Rx_Data_R = 1'b1;
 reg           r_Rx_Data   = 1'b1;
  
 reg [10:0]    r_Clock_Count = 0;
 reg [2:0]     r_Bit_Index   = 0;
-reg [8:0]     r_Rx_Byte     = 0;
+reg [7:0]     r_Rx_Byte     = 0;
 reg           r_Rx_DV       = 0;
 reg [2:0]     r_SM_Main     = 0;
 

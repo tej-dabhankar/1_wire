@@ -33,6 +33,7 @@ module one_wire_shifter (
                 if (data_count == UID_SERIAL_DATA_WIDTH) begin
                      data_count <= 0;
                      r_data_Stream <=0;
+                     r_start_data_stream <=0;
                 end else begin
                      data_count <= data_count + 1;
                end

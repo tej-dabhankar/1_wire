@@ -1,7 +1,7 @@
 module one_wire_data_ctrl(
 
     input clk,
-
+       
 
 /* fifo signal*/
     input fifo_empty,
@@ -24,21 +24,25 @@ module one_wire_data_ctrl(
     /* write data_to bram*/
     output [7:0] write_data,
     output [4:0] data_address,
+    output write_bram,
     
     /* output to start the interface */
     output write
-);
+    );
+
+    /*parameter*/
 
     parameter ADDRESS_WIDTH = 16;
     parameter FIFO_WIDTH = 8;
     parameter UID_SERIAL_DATA_WIDTH = 56;
 
-    //register
-    reg [FIFO_WIDTH-1:0] r_data;
-    reg [FIFO_WIDTH-1:0] r_ROM_Command;
-    reg [UID_SERIAL_DATA_WIDTH-1:0] r_UID_signal;
-    reg [2:0] byte_count;
-    reg [5:0] length = 0;
+    /*regiser*/
+
+    reg [FIFO_WIDTH-1:0] r_data = 0;
+    reg [FIFO_WIDTH-1:0] r_ROM_Command = 0;
+    reg [UID_SERIAL_DATA_WIDTH-1:0] r_UID_signal = 0;
+    reg [2:0] byte_count  =0;
+    reg [FIFO_WIDTH-1:0] length = 0;
     reg [ADDRESS_WIDTH-1:0] r_read_address = 0;
     reg [FIFO_WIDTH-1:0] r_read_cmd = 0;
     reg [FIFO_WIDTH-1:0] r_write_data = 0;
@@ -50,12 +54,13 @@ module one_wire_data_ctrl(
     reg address_count = 0;
     reg [4:0] d_address = 0;
     reg [5:0] r_data_length = 0;
-    
-    
+    reg done_flag =0;
+    reg r_write_bram = 0;
 /* STATE MACHINE PARAMETERS */
 
     reg [3:0] state = 4'b000;
     reg [3:0] post_wait_state ;
+
     localparam IDLE              = 4'd0;
     localparam HOLD              = 4'd1;
     localparam FIFO_WAIT         = 4'd2; 
@@ -86,9 +91,11 @@ module one_wire_data_ctrl(
                     r_read_address<= 0;
                     r_write_data  <= 0;
                     d_address     <= 0;
-                    
+                    r_read_address<= 0;
+                    done_flag      <=0;
+                    r_write_bram   <=0;
                     state <= HOLD;
-                    post_wait_state <= FIFO_READ_LENGTH;
+                    post_wait_state <= FIFO_READ_DATA_LENGTH;
                 end
             
                 HOLD : begin // 1
@@ -105,20 +112,20 @@ module one_wire_data_ctrl(
                     state <= post_wait_state;
                 end
                 
-                FIFO_READ_LENGTH : begin
+   /*             FIFO_READ_LENGTH : begin
                     length <= fifo_read_data;
                     post_wait_state <= FIFO_READ_DATA_LENGTH;
                     state <= WRITE;
                 end
+*/      
+      
                 FIFO_READ_DATA_LENGTH : begin
                     r_data_length <= fifo_read_data[7:2];
                     r_read_match  <= fifo_read_data[1];
                     r_read_write   <= fifo_read_data[0]; 
                     post_wait_state <= FIFO_READ_ROM_CMD;
                     state <= WRITE;
-                end
-                
-                
+                end                
                 
                 FIFO_READ_ROM_CMD : begin
                     r_ROM_Command <= fifo_read_data;
@@ -130,13 +137,13 @@ module one_wire_data_ctrl(
                     r_data <= fifo_read_data;
                     post_wait_state <= FIFO_READ_DATA;
                     state <= SLICE_DATA;
-                    byte_count <= byte_count + 1;
                 end
             
                 SLICE_DATA : begin
-                    r_UID_signal[(byte_count-1) +: FIFO_WIDTH] <= r_data[0  +: FIFO_WIDTH];
+                    r_UID_signal[(byte_count)*FIFO_WIDTH +: FIFO_WIDTH] <= r_data[0  +: FIFO_WIDTH];
                  
                     if (byte_count < 6) begin
+                        byte_count <= byte_count + 1;
                         state <= HOLD;
                     end else begin
                         state <= WRITE;
@@ -164,40 +171,36 @@ module one_wire_data_ctrl(
                    end
                 end
                 
-                SEND_WRITE_DATA : begin
-                    r_write_data <= fifo_read_data;
-                    
-                    
-                    if (length > 0 ) begin
-                        state <= SEND_WRITE_DATA;
+                SEND_WRITE_DATA : begin                    
+                    if (r_data_length > 0 ) begin
+                        r_write_data <= fifo_read_data;
+                        post_wait_state <= SEND_WRITE_DATA;
                         d_address <= d_address +1;
-                        
+                        r_data_length <=r_data_length-1;
+                        state <= WRITE;
+                        r_write_bram <=1'b1;
                     end else begin 
-                        state <=IDLE;
+                        done_flag <=1;
+                        state <= WRITE;
                     end
                 end
+
                 WRITE : begin
                     r_write <= 1'b1;
-                    length <= length -1;
                     state <=WRITE_CONDITION;
                 end
                 
                 WRITE_CONDITION : begin
                     r_write <= 1'b0;   
                     r_data_valid <= 1'b0;
-                    if (length == 0) begin
+                    r_write_bram <= 1'b0;
+                    
+                    if (done_flag) begin
                         state <= IDLE;
                     end else begin
                         state <= HOLD;
                     end
-                    
-                    if (!r_read_write) begin
-                        state <= IDLE;
-                    end else begin
-                        state <= HOLD;
-                        post_wait_state <= SEND_WRITE_DATA;
-                   end
-               end
+                end
             endcase
         end
     
@@ -215,6 +218,6 @@ module one_wire_data_ctrl(
     assign data_valid       = r_data_valid;
     assign data_address     = d_address;
     assign data_length      = r_data_length;
+    assign write_bram       = r_write_bram;
     endmodule
 
-   

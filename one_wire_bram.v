@@ -3,7 +3,7 @@ module one_wire_bram(
     input clk,
     input write,
     input [4:0] write_address,
-    input [ FIFO_DATA_WIDTH-1:0] data_in,
+    input [ FIFO_WIDTH-1:0] data_in,
     input reset,
   
     // input from the interface for data
@@ -17,8 +17,8 @@ module one_wire_bram(
     parameter FIFO_WIDTH = 8;
     
     reg data_transfer_flag = 1'b0;
-    reg [FIFO_DATA_WIDTH-1:0] write_data_reg [0:31];
-    reg [FIFO_DATA_WIDTH-1:0] r_data_out;
+    reg [FIFO_WIDTH-1:0] write_data_reg [0:7];
+    reg [FIFO_WIDTH-1:0] r_data_out;
     reg r_data_dv;
     integer i;
 
@@ -32,17 +32,24 @@ module one_wire_bram(
     localparam HOLD = 2'b01;
     localparam DATA_TRANSFER = 2'b10;
   
+  
+  
+  
+  /* write block in the bram*/
     always @(posedge clk) begin
          if (reset) begin
-            for (i=0; i<=31;i=i+1) begin
+            for (i=0; i<=3;i=i+1) begin
                 write_data_reg [i] = 0;
             end
         end else begin
-            if (write) write_data_reg[write_address] <= data_in;
+            if (write) begin 
+                write_data_reg[write_address] <= data_in;
+            end 
         end
     end
 
 
+  /* Read block in the bram*/
 always @(posedge clk) begin
     case (state)
         IDLE:  begin
