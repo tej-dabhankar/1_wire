@@ -18,7 +18,7 @@ module one_wire_crc(
     reg                    r_crc_valid = 0;
     
     // To be add with configuration signal
-    reg [8:0]              crc_poly = 9'h131;
+    reg [8:0]              crc_poly = 9'h119;
     
     // Parameters
     parameter UID_SERIAL_DATA_WIDTH =56; 
@@ -41,7 +41,7 @@ module one_wire_crc(
             
             if(start_crc) begin
                 r_shift <= {r_shift, data_stream};
-                counter <= UID_SERIAL_DATA_WIDTH + 6'd8;
+                counter <= UID_SERIAL_DATA_WIDTH  + 6'd9;
                 state <= CRC_CALCULATE;
             end
         end
@@ -53,14 +53,24 @@ module one_wire_crc(
                 state <= IDLE;
             end else begin
                 /* CRC Algorithm Depending upon CRC Polynomial */
-                r_shift[7]   <= (crc_poly[7])  ? (r_shift[7] ^ r_shift[6])  : r_shift[6];
+               /* r_shift[7]   <= (crc_poly[7])  ? (r_shift[7] ^ r_shift[6])  : r_shift[6];
                 r_shift[6]   <= (crc_poly[6])  ? (r_shift[7] ^ r_shift[5])  : r_shift[5];
                 r_shift[5]   <= (crc_poly[5])  ? (r_shift[7] ^ r_shift[4])  : r_shift[4];
                 r_shift[4]   <= (crc_poly[4])  ? (r_shift[7] ^ r_shift[3])  : r_shift[3];
                 r_shift[3]   <= (crc_poly[3])  ? (r_shift[7] ^ r_shift[2])  : r_shift[2];
                 r_shift[2]   <= (crc_poly[2])  ? (r_shift[7] ^ r_shift[1])  : r_shift[1];
                 r_shift[1]   <= (crc_poly[1])  ? (r_shift[7] ^ r_shift[0])  : r_shift[0];
-                r_shift[0]   <= (crc_poly[0])  ? (r_shift[7] ^ data_stream) : data_stream;
+                r_shift[0]   <= (crc_poly[0])  ? (r_shift[7] ^ data_stream) : data_stream; */
+                
+                
+                r_shift[0]   <= r_shift[1];
+                r_shift[1]   <= r_shift[2];
+                r_shift[2]   <= (r_shift[0] ^ r_shift[3]);
+                r_shift[3]   <= (r_shift[0] ^ r_shift[4]);
+                r_shift[4]   <= r_shift[5];
+                r_shift[5]   <= r_shift[6];
+                r_shift[6]   <= r_shift[7];
+                r_shift[7]   <= (r_shift[0] ^ data_stream) ; 
             
     
                 counter <= counter - 1'b1;
