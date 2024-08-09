@@ -56,6 +56,7 @@ module one_wire_data_ctrl(
     reg done_flag =0;
     reg r_write_bram = 0;
     reg r_read_write = 0;
+    reg [3:0] bit_length = 0;
     
 /* STATE MACHINE PARAMETERS */
 
@@ -71,8 +72,8 @@ module one_wire_data_ctrl(
     localparam FIFO_READ_UID     = 4'd6;
     localparam SLICE_DATA        = 4'd7;
     localparam FIFO_READ_FUNCT   = 4'd8;
-    localparam FIFO_READ_ADDRESS = 4'd9;
-    localparam FIFO_READ_DATA    = 4'd10;
+    localparam FIFO_READ_DATA    = 4'd9;
+    localparam WAIT_FIFO_DATA    = 4'd10;
     localparam WRITE             = 4'd11;
     localparam WRITE_CONDITION   = 4'd12;
     localparam CHECK_BUSY        = 4'd13;
@@ -94,6 +95,7 @@ module one_wire_data_ctrl(
                     r_read_address<= 0;
                     done_flag      <=0;
                     r_write_bram   <=0;
+                    bit_length     <=0;
                     state <= HOLD;
                     post_wait_state <= FIFO_READ_LENGTH;
                 end
@@ -116,6 +118,7 @@ module one_wire_data_ctrl(
      
                 FIFO_READ_LENGTH : begin
                     r_data_length <= fifo_read_data[7:4];
+                    bit_length <= fifo_read_data[7:4];
                     r_read_write  <= fifo_read_data[3];
                     r_read_command <= fifo_read_data[2:0];
                     post_wait_state <= FIFO_READ_ROM;
@@ -206,15 +209,19 @@ module one_wire_data_ctrl(
                 
                 FIFO_READ_DATA : begin      
                     r_write_data <= fifo_read_data;      
-                    d_address <= d_address +1;     
                     r_write_bram <=1'b1; 
-            
-                    if (r_data_length == 0 ) begin
+                    state <= WAIT_FIFO_DATA;
+                end 
+                
+                WAIT_FIFO_DATA : begin   
+                    r_write_bram <=1'b0; 
+                    d_address <= d_address +1;     
+                    if (bit_length == 0 ) begin
                         state <= WRITE;
                         done_flag <= 1'b1;
                     end else begin 
+                        bit_length <=bit_length - 1'b1;
                         post_wait_state <= FIFO_READ_DATA;
-                        r_data_length <=r_data_length-1;
                         state <= HOLD;
                     end
                 end                     
